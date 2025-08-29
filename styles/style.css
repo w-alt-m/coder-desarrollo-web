@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+  background-color: cadetblue;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+/* MAIN */
+
+main {
+  background-color: lightskyblue;
+}
+
+img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.services img {
+  border-radius: 50%;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: bisque;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-info {
+  display: flex;
+}
