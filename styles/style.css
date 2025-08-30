@@ -45,9 +45,29 @@ img {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.services img {
+/* HOME */
+
+.services-home img {
   border-radius: 50%;
 }
+
+/* ABOUT */
+
+/* SERVICES */
+
+.long-stays {
+  display: flex;
+  background-color: lightcoral;
+}
+
+.day-care {
+  display: flex;
+  background-color: orange;
+}
+
+/* EDUCATION */
+
+/* BOOKING */
 
 /* FOOTER */
 
