@@ -47,7 +47,15 @@ img {
 
 /* HOME */
 
-.services-home img {
+.our-services {
+  background-color: lightcoral;
+}
+
+.customer-experience {
+  background-color: orange;
+}
+
+.our-services img {
   border-radius: 50%;
 }
 
@@ -59,6 +67,9 @@ img {
 
 .what-sets-us-apart {
   background-color: orange;
+}
+.what-sets-us-apart div {
+  display: flex;
 }
 
 /* SERVICES */
@@ -84,6 +95,24 @@ img {
 }
 
 /* BOOKING */
+
+.booking-form {
+  background-color: lightcoral;
+}
+
+.booking-form div {
+  background-color: orange;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+}
+.booking-form div form * {
+  display: block;
+  margin: auto;
+  border-radius: 3px;
+  padding: 5px;
+}
 
 /* FOOTER */
 
