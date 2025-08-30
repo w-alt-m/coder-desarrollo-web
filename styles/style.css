@@ -49,10 +49,12 @@ img {
   border-radius: 50%;
 }
 
+.diferencia 
+
 /* FOOTER */
 
 footer {
-  background-color: bisque;
+  background-color: rgb(253, 12, 12);
   display: flex;
   justify-content: space-around;
   padding: 20px;
