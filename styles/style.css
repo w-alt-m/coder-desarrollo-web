@@ -53,6 +53,14 @@ img {
 
 /* ABOUT */
 
+.our-story {
+  background-color: lightcoral;
+}
+
+.what-sets-us-apart {
+  background-color: orange;
+}
+
 /* SERVICES */
 
 .long-stays {
@@ -66,6 +74,14 @@ img {
 }
 
 /* EDUCATION */
+
+.featured-topics {
+  background-color: lightcoral;
+}
+
+.category-topics {
+  background-color: orange;
+}
 
 /* BOOKING */
 
