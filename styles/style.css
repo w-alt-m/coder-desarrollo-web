@@ -11,9 +11,18 @@ header {
   background-color: cadetblue;
 }
 
+/* NAV BAR */
+
 nav {
   display: flex;
   justify-content: space-around;
+  color: rgb(255, 252, 241);
+  padding: 10px;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
 }
 
 nav ul {
@@ -24,10 +33,13 @@ nav ul {
 
 nav ul li {
   margin: 0 15px;
+  font-size: 1.3rem;
+  font-weight: 800;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 /* MAIN */
