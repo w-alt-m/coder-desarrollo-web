@@ -9,6 +9,9 @@
 
 header {
   background-color: cadetblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /* NAV BAR */
@@ -18,11 +21,6 @@ nav {
   justify-content: space-around;
   color: rgb(255, 252, 241);
   padding: 10px;
-}
-
-nav div {
-  display: flex;
-  align-items: center;
 }
 
 nav ul {
