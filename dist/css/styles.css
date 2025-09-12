@@ -12043,7 +12043,7 @@ textarea.form-control-lg {
   background-size: cover;
   background-position: center;
   min-height: 50vh;
-  background-image: url("../../assets/banner-1.png");
+  background-image: url("../../assets/banner-2.png");
 }
 .hero {
   /* Specific images for each page */
@@ -12052,13 +12052,13 @@ textarea.form-control-lg {
   background-image: url("../../assets/banner-1.png");
 }
 .hero--services .hero__image {
-  background-image: url("../../assets/banner-1.png");
+  background-image: url("../../assets/banner-3.png");
 }
 .hero--dogtraining .hero__image {
   background-image: url("../../assets/banner-2.png");
 }
 .hero--reserve .hero__image {
-  background-image: url("../../assets/banner-1.png");
+  background-image: url("../../assets/banner-3.png");
 }
 .hero__title, .hero__subtitle {
   text-shadow: 2px 2px 20px rgb(0, 0, 0);

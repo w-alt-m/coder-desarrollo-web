@@ -27,7 +27,7 @@
     background-size: cover;
     background-position: center;
     min-height: 50vh;
-    background-image: url("../../assets/banner-1.png");
+    background-image: url("../../assets/banner-2.png");
   }
 
   /* Specific images for each page */
@@ -37,7 +37,7 @@
   }
 
   &--services &__image {
-    background-image: url("../../assets/banner-1.png");
+    background-image: url("../../assets/banner-3.png");
   }
 
   &--dogtraining &__image {
@@ -45,7 +45,7 @@
   }
 
   &--reserve &__image {
-    background-image: url("../../assets/banner-1.png");
+    background-image: url("../../assets/banner-3.png");
   }
 
   &__title,
