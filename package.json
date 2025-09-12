@@ -1,0 +1,25 @@
+{
+  "name": "coder-desarrollo-web",
+  "version": "1.0.0",
+  "description": "WIREFRAME: https://whimsical.com/wireframe-hotel-perritos-HX7Gw8BdViAGqVokQBX3et",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/scss/styles.scss dist/css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w-alt-m/coder-desarrollo-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/w-alt-m/coder-desarrollo-web/issues"
+  },
+  "homepage": "https://github.com/w-alt-m/coder-desarrollo-web#readme",
+  "devDependencies": {
+    "bootstrap": "^5.3.8",
+    "sass": "^1.92.1"
+  }
+}
