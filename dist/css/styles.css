@@ -12049,10 +12049,10 @@ textarea.form-control-lg {
   /* Specific images for each page */
 }
 .hero--about .hero__image {
-  background-image: url("../../assets/banner-1.png");
+  background-image: url("../../assets/banner-4.png");
 }
 .hero--services .hero__image {
-  background-image: url("../../assets/banner-3.png");
+  background-image: url("../../assets/banner-1.png");
 }
 .hero--dogtraining .hero__image {
   background-image: url("../../assets/banner-2.png");
