@@ -30,6 +30,8 @@
     />
   </head>
   <body>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- NAVBAR -->
 
     <nav class="navbar navbar-expand-md navbar-light bg-info">
@@ -94,7 +96,7 @@
     <!-- CUERPO DE LA PÁGINA -->
 
     <main>
-      <section class="services py-5">
+      <section class="services py-5" data-aos="fade-up">
         <div class="container text-center">
           <h2 class="mb-4">
             Nuestros <span class="text-primary fw-bold">Servicios</span>
@@ -215,5 +217,10 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
