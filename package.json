@@ -4,7 +4,8 @@
   "description": "WIREFRAME: https://whimsical.com/wireframe-hotel-perritos-HX7Gw8BdViAGqVokQBX3et",
   "main": "index.js",
   "scripts": {
-    "sass": "sass src/scss/styles.scss dist/css/styles.css --watch"
+    "dev:sass": "sass --watch src/scss:dist/css --load-path=node_modules",
+    "build:sass": "sass src/scss:dist/css --style=compressed --no-source-map --load-path=node_modules"
   },
   "repository": {
     "type": "git",
