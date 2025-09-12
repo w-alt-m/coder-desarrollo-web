@@ -1,4 +1,23 @@
+// Imports
+
+// ¿POR QUÉ NO FUNCIONA SIN ESTO?
+
+// Bootstrap functions
+@import "bootstrap/scss/functions";
+
+// My overrides
+@import "variables";
+
+// Now bootstrap variables, maps, mixins, and root
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/root";
+
+// The rest
 @import "bootstrap/scss/bootstrap";
+
+// CUSTOM STYLES
 
 .hero__image {
   background-image: url("../../assets/banner.jpg");
