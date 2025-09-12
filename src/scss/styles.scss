@@ -19,9 +19,19 @@
 
 // CUSTOM STYLES
 
-.hero__image {
-  background-image: url("../../assets/banner.jpg");
-  background-size: cover;
-  background-position: center;
-  min-height: 50vh;
+.hero {
+  .hero__image {
+    background-image: url("../../assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+
+    .hero__title {
+      text-shadow: 2px 2px 20px rgba(0, 0, 0, 1);
+    }
+
+    .hero__subtitle {
+      text-shadow: 2px 2px 20px rgba(0, 0, 0, 1);
+    }
+  }
 }
