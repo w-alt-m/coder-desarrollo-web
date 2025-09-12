@@ -17,25 +17,16 @@
 // The rest
 @import "bootstrap/scss/bootstrap";
 
-// CUSTOM STYLES
+// AOS
+@import "aos/dist/aos.css";
 
-/* img, // Reset de imagenes, videos y canvas
-svg,
-video,
-canvas {
-  max-width: 100%;
-  height: auto;
-  display: block;
-} */
+// CUSTOM STYLES
 
 .hero {
   .hero__image {
     background-image: url("../../assets/banner.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    max-width: 100%;
     min-height: 50vh;
 
     .hero__title {
