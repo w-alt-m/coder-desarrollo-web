@@ -34,7 +34,9 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- NAVBAR -->
 
-    <nav class="navbar navbar-expand-md navbar-light bg-info">
+    <nav
+      class="navbar navbar-expand-md navbar-light bg-info sticky-top p-0 fs-5 fw-bold"
+    >
       <div class="container">
         <a class="navbar-brand" href="#"
           ><img src="./assets/logo.svg" alt="Logo del Hotel Canino"
@@ -80,7 +82,7 @@
     <header class="hero bg-dark text-white text-center">
       <div class="hero__image d-flex align-items-center">
         <div class="container">
-          <h1 class="hero__title display-4 fw-bold">
+          <h1 class="hero__title display-5 display-md-4 fw-bold">
             Bienvenidos a nuestro Hotel Canino
           </h1>
           <p class="hero__subtitle lead fw-bold">
@@ -92,10 +94,10 @@
         </div>
       </div>
     </header>
-
-    <!-- CUERPO DE LA PÁGINA -->
+    <!-- CONTENT -->
 
     <main>
+      <!-- SECTION 1 -->
       <section class="services py-5" data-aos="fade-up">
         <div class="container text-center">
           <h2 class="mb-4">
@@ -148,7 +150,7 @@
           </div>
         </div>
       </section>
-
+      <!-- SECTION 2 -->
       <section class="our-services">
         <h2>Nuestros servicios</h2>
         <h3>Guardería Canina</h3>
@@ -185,7 +187,7 @@
           <img src="https://placehold.co/100x100" alt="" />
         </div>
       </section>
-      <!-- SECCIÓN 3 -->
+      <!-- SECTION 3 -->
       <section class="customer-experience">
         <h2>Experiencia de clientes</h2>
         <div>
@@ -195,21 +197,74 @@
         </div>
       </section>
     </main>
-    <!-- PIE DE PÁGINA -->
-    <footer>
-      <div class="footer-info">
-        <div>
-          <h4>Contacto</h4>
-          <p>Email: info@ejemplo.com</p>
-          <p>Teléfono: 123-456-7890</p>
+    <!-- FOOTER -->
+    <footer class="bg-dark text-light pt-5 pb-3 mt-5">
+      <div class="container text-md-left">
+        <div class="row">
+          <!-- CONTACT INFO -->
+          <div class="col-md-4 mb-4">
+            <h5 class="text-uppercase fw-bold mb-3">Contacto</h5>
+            <p><i class="bi bi-envelope me-2"></i> info@ejemplo.com</p>
+            <p><i class="bi bi-telephone me-2"></i>123-456-7890</p>
+            <p><i class="bi bi-geo-alt me-2"></i>Calle Ejemplo 123, Ciudad</p>
+          </div>
+
+          <!-- SOCIAL MEDIA -->
+          <div class="col-md-4 mb-4">
+            <h5 class="text-uppercase fw-bold mb-3">Redes Sociales</h5>
+            <a href="https://www.facebook.com" class="text-light me-3 fs-4"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com" class="text-light me-3 fs-4"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="https://www.x.com" class="text-light fs-4"
+              ><i class="bi bi-twitter-x"></i
+            ></a>
+          </div>
+          <!-- QUICK LINKS -->
+          <div class="col-md-4 mb-4">
+            <h5 class="text-uppercase fw-bold mb-3">Enlaces</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="../index.html" class="text-light text-decoration-none"
+                  >Inicio</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./sobre-nosotros.html"
+                  class="text-light text-decoration-none"
+                  >Sobre Nosotros</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./servicios.html"
+                  class="text-light text-decoration-none"
+                  >Servicios</a
+                >
+              </li>
+              <li>
+                <a href="./reserva.html" class="text-light text-decoration-none"
+                  >Reserva</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-        <div>
-          <h4>Redes Sociales</h4>
-          <p>Facebook: /ejemplo</p>
-          <p>Instagram: /ejemplo</p>
+
+        <hr class="mb-4 text-secondary" />
+
+        <!-- Copyright -->
+        <div class="row">
+          <div class="col text-center">
+            <p class="mb-0">
+              &copy; 2025 Hotel Perruno | Todos los derechos reservados
+            </p>
+          </div>
         </div>
       </div>
-      <p>2025 Mi Sitio Web. Todos los derechos reservados.</p>
     </footer>
     <!-- BOOTSTRAP JAVASCRIPT -->
     <script
