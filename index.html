@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>🐶 HOTEL PERRUNO</title>
-    <link rel="stylesheet" href="./styles/style.css" />
+    <!-- CSS -->
+    <!-- <link rel="stylesheet" href="./styles/style.css" /> -->
     <!-- FUENTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,21 +22,50 @@
     />
   </head>
   <body>
-    <!-- ENCABEZADO -->
-    <header>
-      <a href="#"><img src="https://placehold.co/300x80" alt="" /></a>
-      <nav>
-        <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="./pages/sobre-nosotros.html">Sobre Nosotros</a></li>
-          <li><a href="./pages/servicios.html">Servicios</a></li>
-          <li>
-            <a href="./pages/educacion-canina.html">Educación Canina</a>
-          </li>
-          <li><a href="./pages/reserva.html">Hacé tu reserva</a></li>
-        </ul>
-      </nav>
-    </header>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="https://placehold.co/300x80" alt="Logo del Hotel Canino"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/sobre-nosotros.html"
+                >Sobre Nosotros</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/educacion-canina.html"
+                >Educación Canina</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/reserva.html"
+                >Hacé tu reserva</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header></header>
+
     <!-- CUERPO DE LA PÁGINA -->
     <main>
       <!-- SECCIÓN 1 (BANNER) -->
@@ -45,14 +75,28 @@
       <!-- SECCIÓN 2 -->
       <section class="our-services">
         <h2>Nuestros servicios</h2>
-        <h3>Servicio 1</h3>
+        <h3>Guardería Canina</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nulla
           ea fuga. Dolores eos corrupti voluptatum, sequi officiis ullam
           laudantium quibusdam. Assumenda obcaecati veritatis quis doloremque
           qui itaque, commodi cupiditate rerum molestiae explicabo laudantiu
         </p>
-        <h3>Servicio 2</h3>
+        <h3>Hotel Canino</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nulla
+          ea fuga. Dolores eos corrupti voluptatum, sequi officiis ullam
+          laudantium quibusdam. Assumenda obcaecati veritatis quis doloremque
+          qui itaque, commodi cupiditate rerum molestiae explicabo laudantiu
+        </p>
+        <h3>Educación Canina</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nulla
+          ea fuga. Dolores eos corrupti voluptatum, sequi officiis ullam
+          laudantium quibusdam. Assumenda obcaecati veritatis quis doloremque
+          qui itaque, commodi cupiditate rerum molestiae explicabo laudantiu
+        </p>
+        <h3>Grooming</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nulla
           ea fuga. Dolores eos corrupti voluptatum, sequi officiis ullam
