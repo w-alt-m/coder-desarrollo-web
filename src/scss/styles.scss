@@ -23,18 +23,33 @@
 // CUSTOM STYLES
 
 .hero {
-  .hero__image {
-    background-image: url("../../assets/banner.jpg");
+  &__image {
     background-size: cover;
     background-position: center;
     min-height: 50vh;
+    background-image: url("../../assets/banner.jpg");
+  }
 
-    .hero__title {
-      text-shadow: 2px 2px 20px rgba(0, 0, 0, 1);
-    }
+  /* Specific images for each page */
 
-    .hero__subtitle {
-      text-shadow: 2px 2px 20px rgba(0, 0, 0, 1);
-    }
+  &--about &__image {
+    background-image: url("../../assets/banner-1.webp");
+  }
+
+  &--services &__image {
+    background-image: url("../../assets/banner-1.webp");
+  }
+
+  &--dogtraining &__image {
+    background-image: url("../../assets/banner-1.webp");
+  }
+
+  &--reserve &__image {
+    background-image: url("../../assets/banner-1.webp");
+  }
+
+  &__title,
+  &__subtitle {
+    text-shadow: 2px 2px 20px rgba(0, 0, 0, 1);
   }
 }

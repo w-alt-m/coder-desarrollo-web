@@ -12039,16 +12039,28 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.hero .hero__image {
-  background-image: url("../../assets/banner.jpg");
+.hero__image {
   background-size: cover;
   background-position: center;
   min-height: 50vh;
+  background-image: url("../../assets/banner.jpg");
 }
-.hero .hero__image .hero__title {
-  text-shadow: 2px 2px 20px rgb(0, 0, 0);
+.hero {
+  /* Specific images for each page */
 }
-.hero .hero__image .hero__subtitle {
+.hero--about .hero__image {
+  background-image: url("../../assets/banner-1.webp");
+}
+.hero--services .hero__image {
+  background-image: url("../../assets/banner-1.webp");
+}
+.hero--dogtraining .hero__image {
+  background-image: url("../../assets/banner-1.webp");
+}
+.hero--reserve .hero__image {
+  background-image: url("../../assets/banner-1.webp");
+}
+.hero__title, .hero__subtitle {
   text-shadow: 2px 2px 20px rgb(0, 0, 0);
 }
 
