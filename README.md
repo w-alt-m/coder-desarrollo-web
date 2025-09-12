@@ -36,7 +36,7 @@ Este trabajo cuenta con tres instancias (puedes compartir la URL de tu repositor
 - Tu repositorio debe contener:
 - Archivos: Todos los archivos necesarios para visualizar correctamente la web.
 - Historial de versionado: Mostrar los commits usados para actualizar/versionar el código.
-- El acceso al repositorio de GitHub debe ser proporcionado mediante la URL pública del mismo. <---------------> Diseñando nuestra página web desde cero: prototipado, maquetado y estilización inicial
+- El acceso al repositorio de GitHub debe ser proporcionado mediante la URL pública del mismo.
 
 ### Recomendaciones
 
