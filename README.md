@@ -27,24 +27,8 @@ Podés leer las instrucciones completas en [TASK.md](./TASK.md).
 ## 🛠️ Tecnologías utilizadas
 
 - [HTML5](https://developer.mozilla.org/docs/Web/HTML)
-- [SCSS](https://sass-lang.com/) para estilos personalizados
+- [SASS](https://sass-lang.com/) para estilos personalizados
 - [Bootstrap 5](https://getbootstrap.com/) (via npm)
 - [Bootstrap Icons](https://icons.getbootstrap.com/)
 
 ---
-
-## Estructura del proyecto
-
-coder-desarrollo-web/
-│
-├── assets/ # imágenes, logos, íconos
-├── dist/css/ # CSS compilado desde SCSS
-├── pages/ # subpáginas (ej: servicios, sobre nosotros)
-├── src/scss/ # estilos fuente en SCSS
-│ ├── \_variables.scss
-│ └── styles.scss
-│
-├── index.html # página principal
-├── package.json
-├── README.md
-└── TASK.md # enunciado de la tarea
