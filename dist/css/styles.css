@@ -12038,6 +12038,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+/* img, // Reset de imagenes, videos y canvas
+svg,
+video,
+canvas {
+  max-width: 100%;
+  height: auto;
+  display: block;
+} */
 .hero .hero__image {
   background-image: url("../../assets/banner.jpg");
   background-size: cover;
