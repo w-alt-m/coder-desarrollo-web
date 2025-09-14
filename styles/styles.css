@@ -1,0 +1,66 @@
+/* --- CUSTOM STYLES --- */
+
+html,
+body {
+  overflow-x: clip;
+}
+
+.navbar-brand img {
+  max-width: 160px;
+  height: auto;
+}
+
+@media (max-width: 576px) {
+  .navbar-brand img {
+    max-width: 120px;
+  }
+}
+
+/* HERO */
+.hero__image {
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+  background-image: url("../assets/banner-2.png");
+}
+
+/* SPECIFIC HERO IMAGES */
+.hero--about .hero__image {
+  background-image: url("../assets/banner-4.png");
+}
+
+.hero--services .hero__image {
+  background-image: url("../assets/banner-1.png");
+}
+
+.hero--dogtraining .hero__image {
+  background-image: url("../assets/banner-2.png");
+}
+
+.hero--reserve .hero__image {
+  background-image: url("../assets/banner-3.png");
+}
+
+.hero__title,
+.hero__subtitle {
+  text-shadow: 2px 2px 20px rgba(0, 0, 0, 1);
+}
+
+/* OUR SERVICES */
+.our-services__media {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.our-services__media .our-services__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 576px) {
+  .our-services__media {
+    aspect-ratio: 4 / 3;
+  }
+}

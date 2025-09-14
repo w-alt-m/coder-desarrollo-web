@@ -18,9 +18,5 @@
   "bugs": {
     "url": "https://github.com/w-alt-m/coder-desarrollo-web/issues"
   },
-  "homepage": "https://github.com/w-alt-m/coder-desarrollo-web#readme",
-  "devDependencies": {
-    "bootstrap": "^5.3.8",
-    "sass": "^1.92.1"
-  }
+  "homepage": "https://github.com/w-alt-m/coder-desarrollo-web#readme"
 }
