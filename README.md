@@ -14,7 +14,7 @@ Podés leer las instrucciones completas en [TASK.md](./TASK.md).
 ## 📌 Características
 
 - ✅ **Diseño responsivo** con [Bootstrap 5](https://getbootstrap.com/)
-- ✅ **Paleta de colores personalizada** mediante variables SCSS
+- ✅ **Paleta de colores personalizada**
 - ✅ Secciones principales:
   - Navbar con navegación
   - Hero con imagen destacada y CTA
@@ -27,7 +27,6 @@ Podés leer las instrucciones completas en [TASK.md](./TASK.md).
 ## 🛠️ Tecnologías utilizadas
 
 - [HTML5](https://developer.mozilla.org/docs/Web/HTML)
-- [SASS](https://sass-lang.com/) para estilos personalizados
 - [Bootstrap 5](https://getbootstrap.com/) (via npm)
 - [Bootstrap Icons](https://icons.getbootstrap.com/)
 
