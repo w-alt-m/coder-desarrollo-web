@@ -27,7 +27,10 @@ Podés leer las instrucciones completas en [TASK.md](./TASK.md).
 ## 🛠️ Tecnologías utilizadas
 
 - [HTML5](https://developer.mozilla.org/docs/Web/HTML)
-- [Bootstrap 5](https://getbootstrap.com/) (via npm)
+- [CSS3](https://developer.mozilla.org/docs/Web/CSS)
+- [Bootstrap 5](https://getbootstrap.com/)
 - [Bootstrap Icons](https://icons.getbootstrap.com/)
+- [AOS (Animate On Scroll)](https://michalsnik.github.io/aos/)
+- [Google Fonts](https://fonts.google.com/)
 
 ---
