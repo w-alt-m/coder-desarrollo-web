@@ -1,30 +1,24 @@
 /* CUSTOM COLOR PALETTE */
-:root {
+:root,
+[data-bs-theme="light"] {
   --bs-primary: #f278a0;
   --bs-primary-rgb: 242, 120, 160;
-
   --bs-secondary: #6ab5ec;
   --bs-secondary-rgb: 106, 181, 236;
-
   --bs-success: #ff4e64;
   --bs-success-rgb: 255, 78, 100;
-
   --bs-info: #afe6fa;
   --bs-info-rgb: 175, 230, 250;
-
   --bs-warning: #fffae0;
   --bs-warning-rgb: 255, 250, 224;
-
   --bs-danger: #ffd8e9;
   --bs-danger-rgb: 255, 216, 233;
-
   --bs-light: #f8fafc;
   --bs-light-rgb: 248, 250, 252;
-
   --bs-dark: #0f172a;
   --bs-dark-rgb: 15, 23, 42;
 }
-/* FORCE BUTTON COLOR VARIABLES */
+/* SOLID PRIMARY */
 .btn-primary {
   --bs-btn-bg: var(--bs-primary);
   --bs-btn-border-color: var(--bs-primary);
@@ -38,6 +32,26 @@
   );
   --bs-btn-disabled-bg: var(--bs-primary);
   --bs-btn-disabled-border-color: var(--bs-primary);
+  --bs-btn-focus-shadow-rgb: var(--bs-primary-rgb);
+}
+/* OUTLINE PRIMARY */
+.btn-outline-primary {
+  --bs-btn-color: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--bs-primary);
+  --bs-btn-hover-border-color: var(--bs-primary);
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: color-mix(in srgb, var(--bs-primary) 85%, black);
+  --bs-btn-active-border-color: color-mix(
+    in srgb,
+    var(--bs-primary) 80%,
+    black
+  );
+  --bs-btn-disabled-color: var(--bs-primary);
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: var(--bs-primary);
+  --bs-btn-focus-shadow-rgb: var(--bs-primary-rgb);
 }
 
 /* --- CUSTOM STYLES --- */
