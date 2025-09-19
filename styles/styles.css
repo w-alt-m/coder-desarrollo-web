@@ -126,23 +126,9 @@ body {
 .featured-topics,
 .category-topics {
   display: grid;
-  grid-template-columns: repeat(1, auto);
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   grid-template-rows: auto;
   justify-content: center;
   align-items: center;
   gap: 1rem;
-}
-
-@media (min-width: 576px) and (max-width: 992px) {
-  .featured-topics,
-  .category-topics {
-    grid-template-columns: repeat(2, auto);
-  }
-}
-
-@media (min-width: 993px) {
-  .featured-topics,
-  .category-topics {
-    grid-template-columns: repeat(3, auto);
-  }
 }
