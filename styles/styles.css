@@ -120,3 +120,27 @@ body {
     aspect-ratio: 4 / 3;
   }
 }
+
+/* DOG EDUCATION */
+
+.featured-topics,
+.category-topics {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 1rem;
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .featured-topics,
+  .category-topics {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 993px) {
+  .featured-topics,
+  .category-topics {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
