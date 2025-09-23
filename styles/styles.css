@@ -164,11 +164,6 @@ body {
   font-size: 0.85rem;
 }
 
-.service .img-fluid {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
 .service .bi-check-circle {
   font-size: 1rem;
   color: #0d6efd;
