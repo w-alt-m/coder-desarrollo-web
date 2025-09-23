@@ -63,3 +63,5 @@ Este trabajo cuenta con tres instancias (puedes compartir la URL de tu repositor
 7. **Estilo avanzado de la web (CSS) - Entendimiento del CSS:** Expande sobre elementos que ya había creado con clases que los modifican. Genera estilos que son fáciles de cambiar o transformar para diferentes tamaños de dispositivo.
 
 8. **Repositorio en GitHub - Utilización de Git:** Realiza cambios pertinentes a un grupo de mejoras y las commitea. Genera branches en caso de tener que testear algo experimental y luego hace el merge a main. Utiliza .gitignore para no versionar los archivos o directorios que no son requeridos. Utilización de GitHub: Utiliza Github Pages para su trabajo.
+
+prueba
