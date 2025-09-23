@@ -115,6 +115,65 @@ body {
   display: block;
 }
 
+.servicio__body {
+  padding: 1rem 1.25rem 1.5rem;
+}
+
+@media (min-width: 992px) {
+  .servicio__body {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+  .servicio__media,
+  .servicio__content {
+    flex: 1 1 0;
+  }
+}
+
+.benefits-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin: 0;
+  padding: 0;
+}
+.benefits-list li {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.95rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  background: #e7f5ff;
+  color: #0d6efd;
+  border: 1px solid #b6d9ff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+}
+
+.servicio .img-fluid {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.servicio .bi-check-circle {
+  font-size: 1rem;
+  color: #0d6efd;
+}
+
 @media (max-width: 576px) {
   .our-services__media {
     aspect-ratio: 4 / 3;
