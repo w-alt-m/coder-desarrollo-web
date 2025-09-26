@@ -224,11 +224,6 @@ body {
   color: #f278a0;
 }
 
-/* DOG EDUCATION */
-.education__highlight {
-  color: #f278a0;
-}
-
 .featured-topics {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
