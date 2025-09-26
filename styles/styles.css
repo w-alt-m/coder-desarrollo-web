@@ -188,6 +188,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .benefits-list li {
   background: #f8f9fa;
   border: 1px solid #e9ecef;
@@ -237,5 +238,14 @@ body {
 }
 
 .section--highlight h2 {
+  color: #f278a0;
+}
+
+/* SERVICES PAGE */
+.service__header-bg {
+  background-color: #f8fafc;
+}
+
+.service__icon-highlight {
   color: #f278a0;
 }

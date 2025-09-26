@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Servicios - Hotel Perruno</title>
     <!-- BOOTSTRAP -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -26,17 +26,17 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../styles/styles.css" />
   </head>
-  <body class="">
+  <body class="services">
     <!-- HEADER -->
-    <header class="hero hero--services bg-dark text-white text-center">
+    <header class="hero hero--services hero--background text-center">
       <!-- NAVBAR -->
       <nav
-        class="navbar navbar-expand-md navbar-light bg-info sticky-top p-0 fs-5 fw-bold"
+        class="navbar navbar-expand-md navbar-light hero__navbar sticky-top p-0 fs-5 fw-bold"
       >
         <div class="container">
-          <a class="navbar-brand" href="../index.html"
-            ><img src="../assets/logo.svg" alt="Logo del Hotel Canino"
-          /></a>
+          <a class="navbar-brand" href="../index.html">
+            <img src="../assets/logo.svg" alt="Logo del Hotel Canino" />
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -56,7 +56,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Servicios</a>
+                <a class="nav-link nav-link--active" href="#">Servicios</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./educacion-canina.html"
@@ -77,14 +77,13 @@
           <p class="hero__subtitle lead fw-bold">
             Cuidamos a tu mejor amigo como si fuera nuestro
           </p>
-          <a
-            href="./reserva.html"
-            class="hero__btn btn btn-primary btn-lg fw-semibold text-light"
-            >Hacé tu reserva</a
-          >
+          <a href="./reserva.html" class="hero__cta btn btn-lg fw-semibold">
+            Hacé tu reserva
+          </a>
         </div>
       </div>
     </header>
+
     <!-- CONTENT -->
     <main>
       <!-- SERVICES -->
@@ -92,7 +91,8 @@
         <div class="container">
           <header class="text-center mb-4">
             <h1 class="mb-3">
-              Nuestros <span class="text-primary fw-bold">Servicios</span>
+              Nuestros
+              <span class="services__highlight fw-bold">Servicios</span>
             </h1>
             <p class="lead">
               Cuidamos a tu mejor amigo con espacios seguros, rutinas claras y
@@ -100,18 +100,17 @@
             </p>
           </header>
 
-          <!-- SERVICE 1: DOG DAYCARE -->
+          <!-- SERVICE 1 -->
           <article
             class="service card border-0 shadow-sm mb-5"
             data-aos="fade-right"
           >
             <div
-              class="service__header d-flex align-items-center gap-3 p-3 bg-light"
+              class="service__header d-flex align-items-center gap-3 p-3 service__header-bg"
             >
-              <i class="bi-dribbble fs-3 text-primary"></i>
+              <i class="bi-dribbble fs-3 service__icon-highlight"></i>
               <h2 class="h4 m-0">Guardería de día</h2>
             </div>
-
             <div class="service__body">
               <div class="our-services__media">
                 <img
@@ -126,8 +125,6 @@
                   socialice y gaste energía mientras trabajás o estudiás. Grupos
                   por tamaño y nivel de energía, con supervisión permanente.
                 </p>
-
-                <!-- VANILLA FLEX LIST -->
                 <ul class="benefits-list list-unstyled mb-3">
                   <li><i class="bi-check-circle"></i> Evaluación inicial</li>
                   <li>
@@ -136,34 +133,33 @@
                   <li><i class="bi-check-circle"></i> Salidas al patio</li>
                   <li><i class="bi-check-circle"></i> Reporte con fotos</li>
                 </ul>
-
-                <!-- VANILLA FLEX TAGS -->
                 <div class="tags">
                   <span class="tag">Lunes a Viernes</span>
                   <span class="tag">Turno mañana / tarde</span>
                 </div>
-
                 <div class="d-flex flex-wrap gap-3 mt-3">
-                  <a class="btn btn-info fw-semibold" href="./reserva.html"
-                    >Reservar guardería</a
+                  <a
+                    class="our-services__btn btn fw-semibold"
+                    href="./reserva.html"
                   >
+                    Reservar guardería
+                  </a>
                 </div>
               </div>
             </div>
           </article>
 
-          <!-- SERVICE 2: HOTEL - STAYS -->
+          <!-- SERVICE 2 -->
           <article
             class="service card border-0 shadow-sm mb-5"
             data-aos="fade-left"
           >
             <div
-              class="service__header d-flex align-items-center gap-3 p-3 bg-light"
+              class="service__header d-flex align-items-center gap-3 p-3 service__header-bg"
             >
-              <i class="bi-house-door fs-3 text-primary"></i>
+              <i class="bi-house-door fs-3 service__icon-highlight"></i>
               <h2 class="h4 m-0">Hotel Canino</h2>
             </div>
-
             <div class="service__body">
               <div class="our-services__media order-lg-2">
                 <img
@@ -177,7 +173,6 @@
                   Habitaciones cómodas, rutinas de paseo y juego, y seguimiento
                   diario. Buscamos que se sienta como en casa.
                 </p>
-
                 <ul class="benefits-list list-unstyled mb-3">
                   <li>
                     <i class="bi-check-circle"></i> Habitaciones individuales
@@ -188,34 +183,34 @@
                     <i class="bi-check-circle"></i> Protocolos veterinarios
                   </li>
                 </ul>
-
                 <div class="tags">
                   <span class="tag">Check-in 10–18 h</span>
                   <span class="tag">Traer libreta sanitaria</span>
                   <span class="tag">Alimento del hogar</span>
                 </div>
-
                 <div class="d-flex flex-wrap gap-3 mt-3">
-                  <a class="btn btn-info fw-semibold" href="./reserva.html"
-                    >Consultar disponibilidad</a
+                  <a
+                    class="our-services__btn btn fw-semibold"
+                    href="./reserva.html"
                   >
+                    Consultar disponibilidad
+                  </a>
                 </div>
               </div>
             </div>
           </article>
 
-          <!-- SERVICE 3: DOG EDUCATION -->
+          <!-- SERVICE 3 -->
           <article
             class="service card border-0 shadow-sm mb-5"
             data-aos="fade-right"
           >
             <div
-              class="service__header d-flex align-items-center gap-3 p-3 bg-light"
+              class="service__header d-flex align-items-center gap-3 p-3 service__header-bg"
             >
-              <i class="bi-chat-heart-fill fs-3 text-primary"></i>
+              <i class="bi-chat-heart-fill fs-3 service__icon-highlight"></i>
               <h2 class="h4 m-0">Educación Canina</h2>
             </div>
-
             <div class="service__body">
               <div class="our-services__media">
                 <img
@@ -229,7 +224,6 @@
                   Programas por objetivos: desde obediencia básica hasta mejora
                   de modales en paseo y en casa. Enfoque positivo.
                 </p>
-
                 <ul class="benefits-list list-unstyled mb-3">
                   <li><i class="bi-check-circle"></i> Obediencia básica</li>
                   <li><i class="bi-check-circle"></i> Modales en paseo</li>
@@ -238,34 +232,34 @@
                   </li>
                   <li><i class="bi-check-circle"></i> Planes personalizados</li>
                 </ul>
-
                 <div class="tags">
                   <span class="tag">Sesiones 45–60 min</span>
                   <span class="tag">Evaluación inicial</span>
                   <span class="tag">Seguimiento por mail</span>
                 </div>
-
                 <div class="d-flex flex-wrap gap-3 mt-3">
-                  <a class="btn btn-info fw-semibold" href="./reserva.html"
-                    >Agendar evaluación</a
+                  <a
+                    class="our-services__btn btn fw-semibold"
+                    href="./reserva.html"
                   >
+                    Agendar evaluación
+                  </a>
                 </div>
               </div>
             </div>
           </article>
 
-          <!-- SERVICE 5: GROOMING -->
+          <!-- SERVICE 4 -->
           <article
             class="service card border-0 shadow-sm mb-4"
             data-aos="fade-left"
           >
             <div
-              class="service__header d-flex align-items-center gap-3 p-3 bg-light"
+              class="service__header d-flex align-items-center gap-3 p-3 service__header-bg"
             >
-              <i class="bi-scissors fs-3 text-primary"></i>
+              <i class="bi-scissors fs-3 service__icon-highlight"></i>
               <h2 class="h4 m-0">Peluquería Canina</h2>
             </div>
-
             <div class="service__body">
               <div class="our-services__media order-lg-2">
                 <img
@@ -279,7 +273,6 @@
                   Baño, corte, deslanado y limpieza de oídos. Trabajamos con
                   paciencia para una experiencia tranquila.
                 </p>
-
                 <ul class="benefits-list list-unstyled mb-3">
                   <li><i class="bi-check-circle"></i> Baño y secado</li>
                   <li>
@@ -290,21 +283,23 @@
                     <i class="bi-check-circle"></i> Productos hipoalergénicos
                   </li>
                 </ul>
-
                 <div class="tags">
                   <span class="tag">Con turno</span>
                   <span class="tag">Según tamaño y manto</span>
                 </div>
-
                 <div class="d-flex flex-wrap gap-3 mt-3">
-                  <a class="btn btn-info fw-semibold" href="./reserva.html"
-                    >Solicitar turno</a
-                  >
                   <a
-                    class="btn btn-outline-primary fw-semibold"
-                    href="./services.html"
-                    >Cuidados post-baño</a
+                    class="our-services__btn btn fw-semibold"
+                    href="./reserva.html"
                   >
+                    Solicitar turno
+                  </a>
+                  <a
+                    class="our-services__btn-reserve btn fw-semibold"
+                    href="./services.html"
+                  >
+                    Cuidados post-baño
+                  </a>
                 </div>
               </div>
             </div>
@@ -312,77 +307,67 @@
         </div>
       </section>
     </main>
+
     <!-- FOOTER -->
-    <footer class="bg-dark text-light pt-5 pb-3 mt-5">
+    <footer class="footer pt-5 pb-3 mt-5">
       <div class="container text-md-left">
         <div class="row">
           <!-- CONTACT INFO -->
           <div class="col-md-4 mb-4">
-            <h5 class="text-uppercase fw-bold mb-3">Contacto</h5>
+            <h5 class="footer__title text-uppercase fw-bold mb-3">Contacto</h5>
             <p><i class="bi bi-envelope me-2"></i> info@ejemplo.com</p>
             <p><i class="bi bi-telephone me-2"></i>123-456-7890</p>
             <p><i class="bi bi-geo-alt me-2"></i>Calle Ejemplo 123, Ciudad</p>
           </div>
           <!-- SOCIAL MEDIA -->
           <div class="col-md-4 mb-4">
-            <h5 class="text-uppercase fw-bold mb-3">Redes Sociales</h5>
-            <a href="https://www.facebook.com" class="text-light me-3 fs-4"
-              ><i class="bi bi-facebook"></i
-            ></a>
-            <a href="https://www.instagram.com" class="text-light me-3 fs-4"
-              ><i class="bi bi-instagram"></i
-            ></a>
-            <a href="https://www.x.com" class="text-light fs-4"
-              ><i class="bi bi-twitter-x"></i
-            ></a>
+            <h5 class="footer__title text-uppercase fw-bold mb-3">
+              Redes Sociales
+            </h5>
+            <a href="https://www.facebook.com" class="footer__social me-3 fs-4">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a
+              href="https://www.instagram.com"
+              class="footer__social me-3 fs-4"
+            >
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.x.com" class="footer__social fs-4">
+              <i class="bi bi-twitter-x"></i>
+            </a>
           </div>
           <!-- QUICK LINKS -->
           <div class="col-md-4 mb-4">
-            <h5 class="text-uppercase fw-bold mb-3">Enlaces</h5>
+            <h5 class="footer__title text-uppercase fw-bold mb-3">Enlaces</h5>
             <ul class="list-unstyled">
+              <li><a href="../index.html" class="footer__link">Inicio</a></li>
               <li>
-                <a href="../index.html" class="text-light text-decoration-none"
-                  >Inicio</a
-                >
-              </li>
-              <li>
-                <a
-                  href="./sobre-nosotros.html"
-                  class="text-light text-decoration-none"
+                <a href="./sobre-nosotros.html" class="footer__link"
                   >Sobre Nosotros</a
                 >
               </li>
+              <li><a href="#" class="footer__link">Servicios</a></li>
               <li>
-                <a href="#" class="text-light text-decoration-none"
-                  >Servicios</a
-                >
-              </li>
-              <li>
-                <a
-                  href="./educacion-canina.html"
-                  class="text-light text-decoration-none"
+                <a href="./educacion-canina.html" class="footer__link"
                   >Educación Canina</a
                 >
               </li>
-              <li>
-                <a href="./reserva.html" class="text-light text-decoration-none"
-                  >Reserva</a
-                >
-              </li>
+              <li><a href="./reserva.html" class="footer__link">Reserva</a></li>
             </ul>
           </div>
         </div>
-        <hr class="mb-4 text-secondary" />
-        <!-- COPYRIGHT -->
+        <hr class="footer__divider mb-4" />
         <div class="row">
           <div class="col text-center">
-            <p class="mb-0">
+            <p class="footer__copy mb-0">
               &copy; 2025 Hotel Perruno | Todos los derechos reservados
             </p>
           </div>
         </div>
       </div>
     </footer>
+
     <!-- BOOTSTRAP JAVASCRIPT -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
