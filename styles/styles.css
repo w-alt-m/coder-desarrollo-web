@@ -1,4 +1,5 @@
 /* BASE */
+
 html,
 body {
   overflow-x: hidden;
@@ -15,7 +16,18 @@ body {
   }
 }
 
-/* HERO */
+/* NAVBAR */
+
+.hero__navbar {
+  background-color: #afe6fa;
+}
+
+.nav-link--active {
+  color: #f278a0;
+}
+
+/* HERO (GLOBAL + PAGE VARIANTS) */
+
 .hero--background {
   background-color: #0f172a;
   color: #f8fafc;
@@ -38,6 +50,8 @@ body {
   background-image: url("../assets/banner-2.webp");
 }
 
+/* HERO PAGE MODIFIERS */
+
 .hero--about .hero__image {
   background-image: url("../assets/banner-4.webp");
 }
@@ -59,16 +73,10 @@ body {
   text-shadow: 2px 2px 20px rgba(0, 0, 0, 1);
 }
 
-/* NAVBAR */
-.hero__navbar {
-  background-color: #afe6fa;
-}
-
-.nav-link--active {
-  color: #f278a0;
-}
+/* HOME PAGE */
 
 /* SERVICES SECTION */
+
 .section--highlight .services__title {
   color: black;
 }
@@ -88,7 +96,8 @@ body {
   justify-content: center;
 }
 
-/* OUR SERVICES */
+/* OUR SERVICES PAGE */
+
 .our-services__highlight {
   color: #f278a0;
 }
@@ -133,7 +142,75 @@ body {
   }
 }
 
+/* DOG EDUCATION PAGE */
+
+.featured-topics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.featured-topics .card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.category-topics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.category-topics .card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* ABOUT US PAGE */
+
+.section--highlight {
+  background-color: #fffae0;
+  color: #0f172a;
+}
+
+.section--highlight h2 {
+  color: #f278a0;
+}
+
+/* SERVICES PAGE */
+
+.service__header-bg {
+  background-color: #f8fafc;
+}
+
+.service__body {
+  padding: 1rem 1.25rem 1.5rem;
+}
+
+@media (min-width: 992px) {
+  .service__body {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .our-services__media,
+  .service__content {
+    flex: 1 1 0;
+  }
+}
+
+/* RESERVE PAGE */
+
+.booking-form__card {
+  background-color: #fffae0;
+  color: #0f172a;
+}
+
 /* FOOTER */
+
 .footer {
   background-color: #0f172a;
   color: #f8fafc;
@@ -168,22 +245,7 @@ body {
   color: #f8fafc;
 }
 
-/* OTHER STYLES */
-.service__body {
-  padding: 1rem 1.25rem 1.5rem;
-}
-
-@media (min-width: 992px) {
-  .service__body {
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-  }
-  .our-services__media,
-  .service__content {
-    flex: 1 1 0;
-  }
-}
+/* MISC */
 
 .benefits-list {
   display: flex;
@@ -222,49 +284,4 @@ body {
 .service__icon-highlight {
   font-size: 1rem;
   color: #f278a0;
-}
-
-.featured-topics {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-}
-
-.featured-topics .card img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-}
-
-.category-topics {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem;
-}
-
-.category-topics .card img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
-
-/* ABOUT PAGE */
-.section--highlight {
-  background-color: #fffae0;
-  color: #0f172a;
-}
-
-.section--highlight h2 {
-  color: #f278a0;
-}
-
-/* SERVICES PAGE */
-.service__header-bg {
-  background-color: #f8fafc;
-}
-
-/* RESERVE PAGE */
-.booking-form__card {
-  background-color: #fffae0;
-  color: #0f172a;
 }
