@@ -215,9 +215,9 @@ body {
   font-size: 0.85rem;
 }
 
-.service .bi-check-circle {
+.service__icon-highlight {
   font-size: 1rem;
-  color: #0d6efd;
+  color: #f278a0;
 }
 
 /* DOG EDUCATION */
@@ -262,10 +262,6 @@ body {
 /* SERVICES PAGE */
 .service__header-bg {
   background-color: #f8fafc;
-}
-
-.service__icon-highlight {
-  color: #f278a0;
 }
 
 /* RESERVE PAGE */
