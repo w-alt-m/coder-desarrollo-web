@@ -228,6 +228,7 @@ body {
 
 .footer__social {
   color: #f8fafc;
+  text-decoration: none;
 }
 
 .footer__social:hover {
