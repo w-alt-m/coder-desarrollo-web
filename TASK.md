@@ -18,9 +18,9 @@ Este trabajo cuenta con tres instancias (puedes compartir la URL de tu repositor
 - Agregar elementos HTML según la necesidad de armar contenedores o elementos web determinados, basándose en el framework elegido y la documentación del mismo. ✅
 - Usar Bootstrap o Grids + Flexbox. ✅
 - Las estructuras se deberán maquetar a la web basándose en el framework elegido, haciendo uso de clases utilitarias para armar grillas, elementos web y estilos propios del framework, además del HTML de contenido. ✅
-- Todas las páginas deben tener el contenido estructurado y el estilo linkeado.
+- Todas las páginas deben tener el contenido estructurado y el estilo linkeado. ✅
 - Agregar las diferentes librerías de JavaScript y CSS pertinentes al framework. ✅
-- La estructura debe ser entregada en uno o varios archivos HTML según tu proyecto.
+- La estructura debe ser entregada en uno o varios archivos HTML según tu proyecto. ✅
 
 2. **Archivo de CSS con propiedades avanzadas**
 
@@ -42,7 +42,7 @@ Este trabajo cuenta con tres instancias (puedes compartir la URL de tu repositor
 
 - Cuando cargues tu sitio web en GitHub, asegúrate de seguir buenas prácticas de control de versiones. Utiliza ramas separadas para nuevas características o correcciones de errores, y documenta cuidadosamente los cambios que realizas. ✅
 
-- Asegúrate de probar tu sitio web en diferentes navegadores y dispositivos para garantizar que se vea y funcione correctamente para todos los usuarios. Utiliza herramientas como BrowserStack o CrossBrowserTesting para simplificar el proceso de pruebas de compatibilidad de navegadores.
+- Asegúrate de probar tu sitio web en diferentes navegadores y dispositivos para garantizar que se vea y funcione correctamente para todos los usuarios. Utiliza herramientas como BrowserStack o CrossBrowserTesting para simplificar el proceso de pruebas de compatibilidad de navegadores. ✅
 
 <--------------->
 
