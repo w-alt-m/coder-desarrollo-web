@@ -168,6 +168,12 @@ body {
   object-fit: cover;
 }
 
+@media (max-width: 768px) {
+  .featured-topics {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ABOUT US PAGE */
 
 .section--highlight {
