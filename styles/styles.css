@@ -1,61 +1,4 @@
-/* CUSTOM COLOR PALETTE */
-:root,
-[data-bs-theme="light"] {
-  --bs-primary: #f278a0;
-  --bs-primary-rgb: 242, 120, 160;
-  --bs-secondary: #6ab5ec;
-  --bs-secondary-rgb: 106, 181, 236;
-  --bs-success: #ff4e64;
-  --bs-success-rgb: 255, 78, 100;
-  --bs-info: #afe6fa;
-  --bs-info-rgb: 175, 230, 250;
-  --bs-warning: #fffae0;
-  --bs-warning-rgb: 255, 250, 224;
-  --bs-danger: #ffd8e9;
-  --bs-danger-rgb: 255, 216, 233;
-  --bs-light: #f8fafc;
-  --bs-light-rgb: 248, 250, 252;
-  --bs-dark: #0f172a;
-  --bs-dark-rgb: 15, 23, 42;
-}
-/* SOLID PRIMARY */
-.btn-primary {
-  --bs-btn-bg: var(--bs-primary);
-  --bs-btn-border-color: var(--bs-primary);
-  --bs-btn-hover-bg: color-mix(in srgb, var(--bs-primary) 90%, black);
-  --bs-btn-hover-border-color: color-mix(in srgb, var(--bs-primary) 80%, black);
-  --bs-btn-active-bg: color-mix(in srgb, var(--bs-primary) 80%, black);
-  --bs-btn-active-border-color: color-mix(
-    in srgb,
-    var(--bs-primary) 75%,
-    black
-  );
-  --bs-btn-disabled-bg: var(--bs-primary);
-  --bs-btn-disabled-border-color: var(--bs-primary);
-  --bs-btn-focus-shadow-rgb: var(--bs-primary-rgb);
-}
-/* OUTLINE PRIMARY */
-.btn-outline-primary {
-  --bs-btn-color: var(--bs-primary);
-  --bs-btn-border-color: var(--bs-primary);
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: var(--bs-primary);
-  --bs-btn-hover-border-color: var(--bs-primary);
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: color-mix(in srgb, var(--bs-primary) 85%, black);
-  --bs-btn-active-border-color: color-mix(
-    in srgb,
-    var(--bs-primary) 80%,
-    black
-  );
-  --bs-btn-disabled-color: var(--bs-primary);
-  --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: var(--bs-primary);
-  --bs-btn-focus-shadow-rgb: var(--bs-primary-rgb);
-}
-
-/* --- CUSTOM STYLES --- */
-
+/* BASE */
 html,
 body {
   overflow-x: clip;
@@ -73,6 +16,21 @@ body {
 }
 
 /* HERO */
+.hero--background {
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+
+.hero__cta {
+  background-color: #f278a0;
+  color: #fff;
+  border: none;
+}
+
+.hero__cta:hover {
+  background-color: #d9668c;
+}
+
 .hero__image {
   background-size: cover;
   background-position: center;
@@ -80,7 +38,6 @@ body {
   background-image: url("../assets/banner-2.png");
 }
 
-/* SPECIFIC HERO IMAGES */
 .hero--about .hero__image {
   background-image: url("../assets/banner-4.png");
 }
@@ -102,7 +59,58 @@ body {
   text-shadow: 2px 2px 20px rgba(0, 0, 0, 1);
 }
 
+/* NAVBAR */
+.hero__navbar {
+  background-color: #afe6fa;
+}
+
+.nav-link--active {
+  color: #f278a0;
+}
+
+/* SERVICES SECTION */
+.services__highlight {
+  color: #f278a0;
+}
+
+.services__icon {
+  background-color: #f278a0;
+  color: #fff;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* OUR SERVICES */
+.our-services__highlight {
+  color: #f278a0;
+}
+
+.our-services__btn {
+  background-color: #afe6fa;
+  color: #0f172a;
+  border: none;
+}
+
+.our-services__btn:hover {
+  background-color: #6ab5ec;
+  color: #fff;
+}
+
+.our-services__btn-reserve {
+  background-color: transparent;
+  color: #f278a0;
+  border: 2px solid #f278a0;
+}
+
+.our-services__btn-reserve:hover {
+  background-color: #f278a0;
+  color: #fff;
+}
+
 .our-services__media {
   aspect-ratio: 16 / 9;
   overflow: hidden;
@@ -115,6 +123,48 @@ body {
   display: block;
 }
 
+@media (max-width: 576px) {
+  .our-services__media {
+    aspect-ratio: 4 / 3;
+  }
+}
+
+/* FOOTER */
+.footer {
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+
+.footer__title {
+  color: #f8fafc;
+}
+
+.footer__social {
+  color: #f8fafc;
+}
+
+.footer__social:hover {
+  color: #f278a0;
+}
+
+.footer__link {
+  color: #f8fafc;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  color: #f278a0;
+}
+
+.footer__divider {
+  border-color: #6c757d;
+}
+
+.footer__copy {
+  color: #f8fafc;
+}
+
+/* OTHER STYLES */
 .service__body {
   padding: 1rem 1.25rem 1.5rem;
 }
@@ -169,14 +219,7 @@ body {
   color: #0d6efd;
 }
 
-@media (max-width: 576px) {
-  .our-services__media {
-    aspect-ratio: 4 / 3;
-  }
-}
-
 /* DOG EDUCATION */
-
 .featured-topics,
 .category-topics {
   display: grid;
@@ -185,4 +228,14 @@ body {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+}
+
+/* ABOUT PAGE */
+.section--highlight {
+  background-color: #fffae0;
+  color: #0f172a;
+}
+
+.section--highlight h2 {
+  color: #f278a0;
 }
