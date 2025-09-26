@@ -1,234 +1,205 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sobre Nosotros - Hotel Perruno</title>
-    <!-- BOOTSTRAP -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- BOOTSTRAP ICONS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
-    />
-    <!-- CSS -->
-    <link rel="stylesheet" href="../styles/styles.css" />
-  </head>
-  <body class="about">
-    <!-- HEADER -->
-    <header class="hero hero--about hero--background text-center">
-      <!-- NAVBAR -->
-      <nav
-        class="navbar navbar-expand-md navbar-light hero__navbar sticky-top p-0 fs-5 fw-bold"
-      >
-        <div class="container">
-          <a class="navbar-brand" href="../index.html">
-            <img src="../assets/logo.svg" alt="Logo del Hotel Canino" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#menu"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="menu">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="../index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav-link--active" href="#">Sobre Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./servicios.html">Servicios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./educacion-canina.html"
-                  >Educación Canina</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./reserva.html">Hacé tu reserva</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- HERO -->
-      <div class="hero__image d-flex align-items-center">
-        <div class="container">
-          <h1 class="hero__title display-4 fw-bold">Sobre Nosotros</h1>
-          <p class="hero__subtitle lead fw-bold">
-            Cuidamos a tu mejor amigo como si fuera nuestro
-          </p>
-          <a href="./reserva.html" class="hero__cta btn btn-lg fw-semibold">
-            Hacé tu reserva
-          </a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre Nosotros - Hotel Perruno</title>
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet" />
+  <!-- BOOTSTRAP ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="../styles/styles.css" />
+</head>
+
+<body class="about">
+  <!-- HEADER -->
+  <header class="hero hero--about hero--background text-center">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-light hero__navbar sticky-top p-0 fs-5 fw-bold">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../assets/logo.svg" alt="Logo del Hotel Canino" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link--active" href="#">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./educacion-canina.html">Educación Canina</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./reserva.html">Hacé tu reserva</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </header>
-
-    <!-- CONTENT -->
-    <main class="container py-2 mt-4">
-      <!-- SECTION 2 -->
-      <section
-        class="our-story card p-4 rounded-4 shadow section--highlight mb-4"
-      >
-        <h2 class="services__title text-center mb-4">
-          Nuestra
-          <span class="services__highlight fw-bold">historia</span>
-        </h2>
-        <p>
-          Nuestra historia comenzó con una idea muy simple pero poderosa: darle
-          a los perros un lugar donde pudieran sentirse tranquilos, queridos y
-          acompañados cuando sus familias no pudieran estar con ellos. Durante
-          años vimos a muchos dueños enfrentarse al mismo dilema: viajes,
-          horarios laborales extensos o compromisos imprevistos, y la
-          preocupación constante de con quién dejar a su mejor amigo. Guarderías
-          improvisadas, vecinos bienintencionados o servicios sin preparación
-          terminaban siendo soluciones parciales que dejaban a los perros
-          estresados y a las familias con poca tranquilidad. Con esa realidad en
-          mente, en 2018 decidimos transformar nuestra pasión por los animales
-          en un proyecto concreto: un espacio especializado en el bienestar
-          canino. Empezamos de manera sencilla, en un entorno familiar, con
-          pocos huéspedes y muchas ganas de aprender de cada experiencia. Muy
-          pronto descubrimos que la clave no era solo ofrecer un “lugar para
-          quedarse”, sino construir un ambiente diseñado para su comodidad y
-          seguridad: patios amplios, rutinas de juego, descanso y
-          enriquecimiento, y sobre todo, cariño genuino en cada interacción. El
-          boca en boca hizo el resto. Las primeras familias que confiaron en
-          nosotros no solo regresaron, sino que nos recomendaron. Eso nos motivó
-          a crecer y profesionalizarnos: incorporamos adiestradores
-          certificados, capacitaciones en primeros auxilios, protocolos de
-          higiene y salud validados por veterinarios, y nuevas instalaciones
-          pensadas para reducir el estrés y fomentar la socialización positiva
-          entre perros. Hoy, años después, seguimos con el mismo espíritu que
-          nos impulsó al inicio: el de tratar a cada perro como si fuera propio.
-          Cada huésped que llega trae consigo su personalidad única, sus manías
-          y sus necesidades, y nos enorgullece poder adaptarnos a cada caso para
-          que su experiencia sea positiva. Nuestra historia está hecha de
-          momentos: el cachorro que descubre por primera vez jugar en grupo, el
-          perro senior que encuentra calma y cuidado especial, la familia que
-          viaja tranquila porque sabe que recibirá fotos y actualizaciones a
-          diario. Son esas pequeñas historias las que nos confirman que este
-          camino vale la pena. Seguimos creciendo, pero sin perder de vista lo
-          esencial: ofrecer un espacio donde los perros sean felices, y donde
-          las familias encuentren la tranquilidad de que están en buenas manos.
-          Esa es, y seguirá siendo, la esencia de nuestra historia.
+    </nav>
+    <!-- HERO -->
+    <div class="hero__image d-flex align-items-center">
+      <div class="container">
+        <h1 class="hero__title display-4 fw-bold">Sobre Nosotros</h1>
+        <p class="hero__subtitle lead fw-bold">
+          Cuidamos a tu mejor amigo como si fuera nuestro
         </p>
-      </section>
-      <!-- SECTION 3 -->
-      <section
-        class="what-sets-us-apart card p-4 rounded-4 shadow section--highlight"
-      >
-        <h2 class="services__title text-center mb-4">
-          Lo que nos
-          <span class="services__highlight fw-bold">diferencia</span>
-        </h2>
-        <div>
-          <img
-            class="img-fluid mb-4 rounded-4"
-            src="../assets/banner-5.png"
-            alt=""
-          />
-          <p>
-            En nuestro hotel no solo ofrecemos un lugar para que tu perro se
-            quede: ofrecemos una experiencia pensada para su bienestar. Cada
-            huésped recibe atención personalizada según su carácter y
-            necesidades, con rutinas de juego, descanso y socialización
-            positiva. Nos diferencia la preparación de nuestro equipo
-            —adiestradores certificados, capacitación en primeros auxilios y
-            experiencia en manejo de grupos— y el compromiso con la seguridad:
-            vacunación obligatoria, entrevistas previas y protocolos de higiene
-            y emergencias. Además, mantenemos una comunicación transparente con
-            las familias: enviamos fotos, videos y reportes diarios para que
-            sientas la tranquilidad de saber cómo está tu mejor amigo en cada
-            momento. En pocas palabras, lo que nos distingue es la combinación
-            de cariño, profesionalismo y confianza, porque cuidamos a tu perro
-            como si fuera nuestro.
-          </p>
-        </div>
-      </section>
-    </main>
+        <a href="./reserva.html" class="hero__cta btn btn-lg fw-semibold">
+          Hacé tu reserva
+        </a>
+      </div>
+    </div>
+  </header>
 
-    <!-- FOOTER -->
-    <footer class="footer pt-5 pb-3 mt-5">
-      <div class="container text-md-left">
-        <div class="row">
-          <!-- CONTACT INFO -->
-          <div class="col-md-4 mb-4">
-            <h5 class="footer__title text-uppercase fw-bold mb-3">Contacto</h5>
-            <p><i class="bi bi-envelope me-2"></i> info@ejemplo.com</p>
-            <p><i class="bi bi-telephone me-2"></i>123-456-7890</p>
-            <p><i class="bi bi-geo-alt me-2"></i>Calle Ejemplo 123, Ciudad</p>
-          </div>
-          <!-- SOCIAL MEDIA -->
-          <div class="col-md-4 mb-4">
-            <h5 class="footer__title text-uppercase fw-bold mb-3">
-              Redes Sociales
-            </h5>
-            <a href="https://www.facebook.com" class="footer__social me-3 fs-4">
-              <i class="bi bi-facebook"></i>
-            </a>
-            <a
-              href="https://www.instagram.com"
-              class="footer__social me-3 fs-4"
-            >
-              <i class="bi bi-instagram"></i>
-            </a>
-            <a href="https://www.x.com" class="footer__social fs-4">
-              <i class="bi bi-twitter-x"></i>
-            </a>
-          </div>
-          <!-- QUICK LINKS -->
-          <div class="col-md-4 mb-4">
-            <h5 class="footer__title text-uppercase fw-bold mb-3">Enlaces</h5>
-            <ul class="list-unstyled">
-              <li><a href="../index.html" class="footer__link">Inicio</a></li>
-              <li><a href="#" class="footer__link">Sobre Nosotros</a></li>
-              <li>
-                <a href="./servicios.html" class="footer__link">Servicios</a>
-              </li>
-              <li>
-                <a href="./educacion-canina.html" class="footer__link"
-                  >Educación Canina</a
-                >
-              </li>
-              <li><a href="./reserva.html" class="footer__link">Reserva</a></li>
-            </ul>
-          </div>
+  <!-- CONTENT -->
+  <main class="container py-2 mt-4">
+    <!-- SECTION 2 -->
+    <section class="our-story card p-4 rounded-4 shadow section--highlight mb-4">
+      <h2 class="services__title text-center mb-4">
+        Nuestra
+        <span class="services__highlight fw-bold">historia</span>
+      </h2>
+      <p>
+        Nuestra historia comenzó con una idea muy simple pero poderosa: darle
+        a los perros un lugar donde pudieran sentirse tranquilos, queridos y
+        acompañados cuando sus familias no pudieran estar con ellos. Durante
+        años vimos a muchos dueños enfrentarse al mismo dilema: viajes,
+        horarios laborales extensos o compromisos imprevistos, y la
+        preocupación constante de con quién dejar a su mejor amigo. Guarderías
+        improvisadas, vecinos bienintencionados o servicios sin preparación
+        terminaban siendo soluciones parciales que dejaban a los perros
+        estresados y a las familias con poca tranquilidad. Con esa realidad en
+        mente, en 2018 decidimos transformar nuestra pasión por los animales
+        en un proyecto concreto: un espacio especializado en el bienestar
+        canino. Empezamos de manera sencilla, en un entorno familiar, con
+        pocos huéspedes y muchas ganas de aprender de cada experiencia. Muy
+        pronto descubrimos que la clave no era solo ofrecer un “lugar para
+        quedarse”, sino construir un ambiente diseñado para su comodidad y
+        seguridad: patios amplios, rutinas de juego, descanso y
+        enriquecimiento, y sobre todo, cariño genuino en cada interacción. El
+        boca en boca hizo el resto. Las primeras familias que confiaron en
+        nosotros no solo regresaron, sino que nos recomendaron. Eso nos motivó
+        a crecer y profesionalizarnos: incorporamos adiestradores
+        certificados, capacitaciones en primeros auxilios, protocolos de
+        higiene y salud validados por veterinarios, y nuevas instalaciones
+        pensadas para reducir el estrés y fomentar la socialización positiva
+        entre perros. Hoy, años después, seguimos con el mismo espíritu que
+        nos impulsó al inicio: el de tratar a cada perro como si fuera propio.
+        Cada huésped que llega trae consigo su personalidad única, sus manías
+        y sus necesidades, y nos enorgullece poder adaptarnos a cada caso para
+        que su experiencia sea positiva. Nuestra historia está hecha de
+        momentos: el cachorro que descubre por primera vez jugar en grupo, el
+        perro senior que encuentra calma y cuidado especial, la familia que
+        viaja tranquila porque sabe que recibirá fotos y actualizaciones a
+        diario. Son esas pequeñas historias las que nos confirman que este
+        camino vale la pena. Seguimos creciendo, pero sin perder de vista lo
+        esencial: ofrecer un espacio donde los perros sean felices, y donde
+        las familias encuentren la tranquilidad de que están en buenas manos.
+        Esa es, y seguirá siendo, la esencia de nuestra historia.
+      </p>
+    </section>
+    <!-- SECTION 3 -->
+    <section class="what-sets-us-apart card p-4 rounded-4 shadow section--highlight">
+      <h2 class="services__title text-center mb-4">
+        Lo que nos
+        <span class="services__highlight fw-bold">diferencia</span>
+      </h2>
+      <div>
+        <img class="img-fluid mb-4 rounded-4" src="../assets/banner-5.png" alt="" />
+        <p>
+          En nuestro hotel no solo ofrecemos un lugar para que tu perro se
+          quede: ofrecemos una experiencia pensada para su bienestar. Cada
+          huésped recibe atención personalizada según su carácter y
+          necesidades, con rutinas de juego, descanso y socialización
+          positiva. Nos diferencia la preparación de nuestro equipo
+          —adiestradores certificados, capacitación en primeros auxilios y
+          experiencia en manejo de grupos— y el compromiso con la seguridad:
+          vacunación obligatoria, entrevistas previas y protocolos de higiene
+          y emergencias. Además, mantenemos una comunicación transparente con
+          las familias: enviamos fotos, videos y reportes diarios para que
+          sientas la tranquilidad de saber cómo está tu mejor amigo en cada
+          momento. En pocas palabras, lo que nos distingue es la combinación
+          de cariño, profesionalismo y confianza, porque cuidamos a tu perro
+          como si fuera nuestro.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer pt-5 pb-3 mt-5">
+    <div class="container text-md-left">
+      <div class="row">
+        <!-- CONTACT INFO -->
+        <div class="col-md-4 mb-4">
+          <h5 class="footer__title text-uppercase fw-bold mb-3">Contacto</h5>
+          <p><i class="bi bi-envelope me-2"></i> info@ejemplo.com</p>
+          <p><i class="bi bi-telephone me-2"></i>123-456-7890</p>
+          <p><i class="bi bi-geo-alt me-2"></i>Calle Ejemplo 123, Ciudad</p>
         </div>
-        <hr class="footer__divider mb-4" />
-        <!-- COPYRIGHT -->
-        <div class="row">
-          <div class="col text-center">
-            <p class="footer__copy mb-0">
-              &copy; 2025 Hotel Perruno | Todos los derechos reservados
-            </p>
-          </div>
+        <!-- SOCIAL MEDIA -->
+        <div class="col-md-4 mb-4">
+          <h5 class="footer__title text-uppercase fw-bold mb-3">
+            Redes Sociales
+          </h5>
+          <a href="https://www.facebook.com" class="footer__social me-3 fs-4">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="https://www.instagram.com" class="footer__social me-3 fs-4">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://www.x.com" class="footer__social fs-4">
+            <i class="bi bi-twitter-x"></i>
+          </a>
+        </div>
+        <!-- QUICK LINKS -->
+        <div class="col-md-4 mb-4">
+          <h5 class="footer__title text-uppercase fw-bold mb-3">Enlaces</h5>
+          <ul class="list-unstyled">
+            <li><a href="../index.html" class="footer__link">Inicio</a></li>
+            <li><a href="#" class="footer__link">Sobre Nosotros</a></li>
+            <li>
+              <a href="./servicios.html" class="footer__link">Servicios</a>
+            </li>
+            <li>
+              <a href="./educacion-canina.html" class="footer__link">Educación Canina</a>
+            </li>
+            <li><a href="./reserva.html" class="footer__link">Reserva</a></li>
+          </ul>
         </div>
       </div>
-    </footer>
+      <hr class="footer__divider mb-4" />
+      <!-- COPYRIGHT -->
+      <div class="row">
+        <div class="col text-center">
+          <p class="footer__copy mb-0">
+            &copy; 2025 Hotel Perruno | Todos los derechos reservados
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    <!-- BOOTSTRAP JAVASCRIPT -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- BOOTSTRAP JAVASCRIPT -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

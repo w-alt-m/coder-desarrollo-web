@@ -13,6 +13,7 @@ Podés leer las instrucciones completas en [TASK.md](./TASK.md).
 
 ## 📌 Características
 
+- ⚠️ Atención: las clases, comentarios y commits en inglés son intencionales ya que prefiero trabajar el lado del código en inglés para mayor cohesión (el contenido principal de la página sigue siendo en español). Gracias por entender.
 - ✅ **Diseño responsivo** con [Bootstrap 5](https://getbootstrap.com/)
 - ✅ **Paleta de colores personalizada**
 - ✅ Secciones principales:

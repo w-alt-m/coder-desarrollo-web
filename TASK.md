@@ -1,16 +1,16 @@
 # Entrega 2
 
-Para poner en práctica todos los conocimientos adquiridos, te proponemos avanzar con la estructura avanzada y el uso colaborativo con GitHub.
+Para poner en práctica todos los conocimientos adquiridos, te proponemos avanzar con la estructura avanzada y el uso colaborativo con GitHub. ✅
 
 ## Objetivos
 
-- Realizar una estructura avanzada de la web.
-- Efectuar el estilo avanzado de la web.
-- Generar la carga en un repositorio en GitHub.
+- Realizar una estructura avanzada de la web. ✅
+- Efectuar el estilo avanzado de la web. ✅
+- Generar la carga en un repositorio en GitHub. ✅
 
 ## Requisitos
 
-Este trabajo cuenta con tres instancias (puedes compartir la URL de tu repositorio de GitHub con las tres):
+Este trabajo cuenta con tres instancias (puedes compartir la URL de tu repositorio de GitHub con las tres): ✅
 
 1. **Estructura del HTML avanzada**
 
@@ -38,7 +38,7 @@ Este trabajo cuenta con tres instancias (puedes compartir la URL de tu repositor
 
 ### Recomendaciones
 
-- Asegúrate de optimizar tu sitio web para la velocidad y la eficiencia. Utiliza técnicas como la compresión de archivos, el uso de CDN (Content Delivery Network) y la optimización de imágenes para garantizar que tu sitio web cargue rápidamente y se ejecute sin problemas.
+- Asegúrate de optimizar tu sitio web para la velocidad y la eficiencia. Utiliza técnicas como la compresión de archivos, el uso de CDN (Content Delivery Network) y la optimización de imágenes para garantizar que tu sitio web cargue rápidamente y se ejecute sin problemas. ✅
 
 - Cuando cargues tu sitio web en GitHub, asegúrate de seguir buenas prácticas de control de versiones. Utiliza ramas separadas para nuevas características o correcciones de errores, y documenta cuidadosamente los cambios que realizas. ✅
 
@@ -48,18 +48,18 @@ Este trabajo cuenta con tres instancias (puedes compartir la URL de tu repositor
 
 ### Criterios de evaluación
 
-1. **Estructura avanzada de la web (HTML) - Prolijidad y Tags:** presenta tabulaciones correctas y ordenadas, denotando jerarquía entre los elementos. El uso de comentarios es correcto: se usan de forma pragmática para saber dónde comienzan y/o terminan secciones. Tags: el nesting es óptimo, Se observa un uso de tags semánticos correcto y estructuración de la página desde el HTML. El alt de las imágenes es pertinente y descriptivo.
+1. **Estructura avanzada de la web (HTML) - Prolijidad y Tags:** presenta tabulaciones correctas y ordenadas, denotando jerarquía entre los elementos. El uso de comentarios es correcto: se usan de forma pragmática para saber dónde comienzan y/o terminan secciones. Tags: el nesting es óptimo, Se observa un uso de tags semánticos correcto y estructuración de la página desde el HTML. El alt de las imágenes es pertinente y descriptivo. ✅
 
-2. **Estructura avanzada de la web (HTML) - Estilo y funcionalidad:** Se observa un uso de nombres de clases correcto, sin caer en clases redundantes o irrelevantes. Funcionalidad: Las páginas tienen enlaces funcionales. Las imágenes están bien cargadas y resultan pertinentes. Las rutas relativas son correctas.
+2. **Estructura avanzada de la web (HTML) - Estilo y funcionalidad:** Se observa un uso de nombres de clases correcto, sin caer en clases redundantes o irrelevantes. Funcionalidad: Las páginas tienen enlaces funcionales. Las imágenes están bien cargadas y resultan pertinentes. Las rutas relativas son correctas. ✅
 
-3. **Estructura avanzada de la web (HTML) - Contenido:** la información está correctamente estructurada, usando los tags correctos para cada tipo de contenido, ya sean tablas, listas, titulares, párrafos o imágenes. El contenido se distribuye de forma no monótona y tiene varios niveles de lectura? ¿Las imágenes tienen un tamaño apropiado al que ocupan en el contenido? <---------------> #
+3. **Estructura avanzada de la web (HTML) - Contenido:** la información está correctamente estructurada, usando los tags correctos para cada tipo de contenido, ya sean tablas, listas, titulares, párrafos o imágenes. El contenido se distribuye de forma no monótona y tiene varios niveles de lectura? ¿Las imágenes tienen un tamaño apropiado al que ocupan en el contenido? <---------------> # ✅
 
-4. **Estilo avanzado de la web (CSS) - Código y diseño de la estructura visual:** El contenido se distribuye de forma no monótona y tiene varios niveles de lectura? ¿Las imágenes tienen un tamaño apropiado al que ocupan en el contenido?
+4. **Estilo avanzado de la web (CSS) - Código y diseño de la estructura visual:** El contenido se distribuye de forma no monótona y tiene varios niveles de lectura? ¿Las imágenes tienen un tamaño apropiado al que ocupan en el contenido? ✅
 
-5. **Estilo avanzado de la web (CSS) - Estilo de diseño Web:** Hay una paleta de colores con contrastes pertinentes y se respeta a lo largo de las páginas del sitio web. El texto es legible. Hay un elemento que evita que el contenido vaya hasta los bordes de la pantalla y está alineado ¿Evita que se genere overflow-x?
+5. **Estilo avanzado de la web (CSS) - Estilo de diseño Web:** Hay una paleta de colores con contrastes pertinentes y se respeta a lo largo de las páginas del sitio web. El texto es legible. Hay un elemento que evita que el contenido vaya hasta los bordes de la pantalla y está alineado ¿Evita que se genere overflow-x? ✅
 
-6. **Estilo avanzado de la web (CSS) - Prolijidad del código:** ¿El uso de tabulaciones es correcto? ¿Hace buen uso de los selectores para evitar repetir código.
+6. **Estilo avanzado de la web (CSS) - Prolijidad del código:** ¿El uso de tabulaciones es correcto? ¿Hace buen uso de los selectores para evitar repetir código. ✅
 
-7. **Estilo avanzado de la web (CSS) - Entendimiento del CSS:** Expande sobre elementos que ya había creado con clases que los modifican. Genera estilos que son fáciles de cambiar o transformar para diferentes tamaños de dispositivo.
+7. **Estilo avanzado de la web (CSS) - Entendimiento del CSS:** Expande sobre elementos que ya había creado con clases que los modifican. Genera estilos que son fáciles de cambiar o transformar para diferentes tamaños de dispositivo. ✅
 
-8. **Repositorio en GitHub - Utilización de Git:** Realiza cambios pertinentes a un grupo de mejoras y las commitea. Genera branches en caso de tener que testear algo experimental y luego hace el merge a main. Utiliza .gitignore para no versionar los archivos o directorios que no son requeridos. Utilización de GitHub: Utiliza Github Pages para su trabajo.
+8. **Repositorio en GitHub - Utilización de Git:** Realiza cambios pertinentes a un grupo de mejoras y las commitea. Genera branches en caso de tener que testear algo experimental y luego hace el merge a main. Utiliza .gitignore para no versionar los archivos o directorios que no son requeridos. Utilización de GitHub: Utiliza Github Pages para su trabajo. ✅
