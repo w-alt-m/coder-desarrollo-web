@@ -75,8 +75,6 @@ body {
 
 /* HOME PAGE */
 
-/* SERVICES SECTION */
-
 .section--highlight .services__title {
   color: black;
 }
@@ -140,6 +138,45 @@ body {
   .our-services__media {
     aspect-ratio: 4 / 3;
   }
+}
+
+.benefits-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.benefits-list li {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.95rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  background: #e7f5ff;
+  color: #0d6efd;
+  border: 1px solid #b6d9ff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+}
+
+.service__icon-highlight {
+  font-size: 1rem;
+  color: #f278a0;
 }
 
 /* DOG EDUCATION PAGE */
@@ -250,45 +287,4 @@ body {
 
 .footer__copy {
   color: #f8fafc;
-}
-
-/* MISC */
-
-.benefits-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem 1rem;
-  margin: 0;
-  padding: 0;
-}
-
-.benefits-list li {
-  background: #f8f9fa;
-  border: 1px solid #e9ecef;
-  border-radius: 0.5rem;
-  padding: 0.5rem 0.75rem;
-  font-size: 0.95rem;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.tag {
-  background: #e7f5ff;
-  color: #0d6efd;
-  border: 1px solid #b6d9ff;
-  padding: 0.25rem 0.5rem;
-  border-radius: 9999px;
-  font-size: 0.85rem;
-}
-
-.service__icon-highlight {
-  font-size: 1rem;
-  color: #f278a0;
 }
