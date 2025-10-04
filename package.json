@@ -1,0 +1,21 @@
+{
+  "name": "coder-desarrollo-web",
+  "version": "1.0.0",
+  "description": "Sitio web de práctica para el curso de Desarrollo Web.  \r Este proyecto simula la página oficial de un **Hotel Canino**, mostrando servicios, información y un sistema de reservas básico mediante un formulario.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch styles/style.scss styles/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w-alt-m/coder-desarrollo-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/w-alt-m/coder-desarrollo-web/issues"
+  },
+  "homepage": "https://github.com/w-alt-m/coder-desarrollo-web#readme"
+}
