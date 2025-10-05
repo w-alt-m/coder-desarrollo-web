@@ -1,4 +1,9 @@
 /* BASE */
+html,
+body {
+  overflow-x: hidden;
+}
+
 .our-services__btn-reserve, .our-services__btn, .hero__cta {
   border-radius: 6px;
   font-weight: 600;
@@ -27,11 +32,7 @@
     transform: translateY(0);
   }
 }
-html,
-body {
-  overflow-x: hidden;
-}
-
+/* MQ BREAKPOINTS MIXIN */
 .navbar-brand img {
   max-width: 160px;
   height: auto;

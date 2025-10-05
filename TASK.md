@@ -100,7 +100,7 @@ El acceso al repositorio de GitHub debe ser proporcionado mediante la URL públi
 ## 🔹 1. Estructura del proyecto
 
 - [x] ~~Crear la carpeta del proyecto~~
-- [x] ~~Configurar la arquitectura de carpetas SCSS (`/scss`, `/scss/base`, `/scss/components`, `/scss/layout`, `/scss/utils`, `/scss/pages`)~~
+- [x] ~~Configurar la arquitectura de carpetas SCSS~~
 - [x] ~~Configurar `.gitignore` (ignorar `node_modules/` y otros innecesarios)~~
 - [x] Crear un archivo `main.scss` que importe los parciales
 
@@ -126,9 +126,9 @@ El acceso al repositorio de GitHub debe ser proporcionado mediante la URL públi
 - [x] Usar **variables** para colores, tipografías, tamaños
 - [x] Usar **nesting** correcto para selectores
 - [x] Usar **mixins** (ej: para media queries o botones)
-- [ ] Usar **@extend** para reutilizar estilos
+- [x] Usar **@extend** para reutilizar estilos
 - [x] Usar **operadores** de SASS (`+`, `-`, `*`, `darken()`, `lighten()`, etc.)
-- [ ] Implementar **mapas o loops (@each)** si es posible (ej: clases dinámicas de color)
+- [x] Implementar **mapas o loops (@each)** si es posible (ej: clases dinámicas de color)
 - [x] Implementar **transiciones y/o animaciones** en elementos relevantes
 - [x] Verificar que se genere un único `style.css` compilado a partir del SCSS
 - [x] Linkear el CSS generado en todos los HTML

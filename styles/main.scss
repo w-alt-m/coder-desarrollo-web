@@ -6,6 +6,11 @@ $color-dark: #0f172a;
 $color-light: #f8fafc;
 $color-bg-alt: #fffae0;
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 %btn-shared {
   border-radius: 6px;
   font-weight: 600;
@@ -47,9 +52,25 @@ $brand-colors: (
   }
 }
 
-html,
-body {
-  overflow-x: hidden;
+/* MQ BREAKPOINTS MIXIN */
+
+$breakpoints: (
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+);
+
+@mixin respond-to($size) {
+  @media (max-width: map-get($breakpoints, $size)) {
+    @content;
+  }
+}
+
+@mixin respond-up($size) {
+  @media (min-width: map-get($breakpoints, $size)) {
+    @content;
+  }
 }
 
 .navbar-brand {
@@ -58,7 +79,7 @@ body {
     height: auto;
   }
 
-  @media (max-width: 576px) {
+  @include respond-to(sm) {
     img {
       max-width: 120px;
     }
@@ -96,12 +117,12 @@ body {
     width: 100vw;
     max-width: 100%;
 
-    @media (max-width: 992px) {
+    @include respond-to(lg) {
       min-height: 35vh;
       background-position: center top;
     }
 
-    @media (max-width: 576px) {
+    @include respond-to(sm) {
       min-height: 25vh;
       background-position: top;
     }
@@ -186,7 +207,7 @@ body {
       display: block;
     }
 
-    @media (max-width: 576px) {
+    @include respond-to(sm) {
       aspect-ratio: 4 / 3;
     }
   }
@@ -244,7 +265,7 @@ body {
     object-fit: cover;
   }
 
-  @media (max-width: 768px) {
+  @include respond-to(md) {
     grid-template-columns: 1fr;
   }
 }
@@ -293,14 +314,14 @@ body {
   &__body {
     padding: 1rem 1.25rem 1.5rem;
 
-    @media (min-width: 992px) {
+    @include respond-up(lg) {
       display: flex;
       gap: 2rem;
       align-items: center;
     }
   }
 
-  @media (min-width: 992px) {
+  @include respond-up(lg) {
     .our-services__media,
     .service__content {
       flex: 1 1 0;
