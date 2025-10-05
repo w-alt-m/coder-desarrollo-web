@@ -100,7 +100,7 @@ El acceso al repositorio de GitHub debe ser proporcionado mediante la URL públi
 ## 🔹 1. Estructura del proyecto
 
 - [x] ~~Crear la carpeta del proyecto~~
-- [x] ~~Configurar la arquitectura de carpetas SCSS (`/scss`, `/scss/base`, `/scss/components`, `/scss/layout`, `/scss/utils`, `/scss/pages`)~~ _(puede requerir ajustar si no existía SCSS)_
+- [x] ~~Configurar la arquitectura de carpetas SCSS (`/scss`, `/scss/base`, `/scss/components`, `/scss/layout`, `/scss/utils`, `/scss/pages`)~~
 - [x] ~~Configurar `.gitignore` (ignorar `node_modules/` y otros innecesarios)~~
 - [x] Crear un archivo `main.scss` que importe los parciales
 
@@ -122,30 +122,30 @@ El acceso al repositorio de GitHub debe ser proporcionado mediante la URL públi
 
 ## 🔹 3. CSS / SCSS
 
-- [ ] Traducir todos los estilos CSS a **SCSS**
-- [ ] Usar **variables** para colores, tipografías, tamaños
-- [ ] Usar **nesting** correcto para selectores
-- [ ] Usar **mixins** (ej: para media queries o botones)
+- [x] Traducir todos los estilos CSS a **SCSS**
+- [x] Usar **variables** para colores, tipografías, tamaños
+- [x] Usar **nesting** correcto para selectores
+- [x] Usar **mixins** (ej: para media queries o botones)
 - [ ] Usar **@extend** para reutilizar estilos
-- [ ] Usar **operadores** de SASS (`+`, `-`, `*`, `darken()`, `lighten()`, etc.)
+- [x] Usar **operadores** de SASS (`+`, `-`, `*`, `darken()`, `lighten()`, etc.)
 - [ ] Implementar **mapas o loops (@each)** si es posible (ej: clases dinámicas de color)
-- [ ] Implementar **transiciones y/o animaciones** en elementos relevantes
-- [ ] Verificar que se genere un único `style.css` compilado a partir del SCSS
-- [ ] Linkear el CSS generado en todos los HTML
+- [x] Implementar **transiciones y/o animaciones** en elementos relevantes
+- [x] Verificar que se genere un único `style.css` compilado a partir del SCSS
+- [x] Linkear el CSS generado en todos los HTML
 
 ---
 
 ## 🔹 4. Responsive Design
 
-- [ ] Usar unidades relativas (`em`, `rem`, `%`, `vh`, `vw`) en lugar de píxeles fijos donde sea pertinente
-- [ ] Usar **grid y flexbox** de forma adecuada según layout
+- [x] Usar unidades relativas (`em`, `rem`, `%`, `vh`, `vw`) en lugar de píxeles fijos donde sea pertinente
+- [x] Usar **grid y flexbox** de forma adecuada según layout
 - [ ] Definir media queries SCSS con mixins (ej: breakpoints para mobile, tablet, desktop)
-- [ ] Comprobar que el diseño funciona en:
-  - [ ] Mobile (≤576px)
-  - [ ] Tablet (~768px)
-  - [ ] Laptop (~1024px)
-  - [ ] Desktop (≥1440px)
-- [ ] Asegurar que navegación sea intuitiva y los elementos se mantengan consistentes
+- [x] Comprobar que el diseño funciona en:
+  - [x] Mobile (≤576px)
+  - [x] Tablet (~768px)
+  - [x] Laptop (~1024px)
+  - [x] Desktop (≥1440px)
+- [x] Asegurar que navegación sea intuitiva y los elementos se mantengan consistentes
 
 ---
 
@@ -153,7 +153,7 @@ El acceso al repositorio de GitHub debe ser proporcionado mediante la URL públi
 
 - [x] ~~Optimizar imágenes (tamaño apropiado, formato web)~~
 - [x] ~~Comprimir archivos si es necesario~~
-- [ ] (Opcional) Usar un CDN para librerías externas (ej: Bootstrap, FontAwesome)
+- [x] (Opcional) Usar un CDN para librerías externas (ej: Bootstrap, FontAwesome)
 - [x] ~~Verificar velocidad y rendimiento (ej: Lighthouse o PageSpeed)~~
 
 ---
