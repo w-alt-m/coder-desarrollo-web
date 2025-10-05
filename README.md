@@ -32,5 +32,6 @@ Podés leer las instrucciones completas en [TASK.md](./TASK.md).
 - [Bootstrap 5](https://getbootstrap.com/)
 - [Bootstrap Icons](https://icons.getbootstrap.com/)
 - [Google Fonts](https://fonts.google.com/)
+- [SASS](https://sass-lang.com/)
 
 ---
