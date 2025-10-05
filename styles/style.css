@@ -1,3 +1,4 @@
+/* BASE */
 html,
 body {
   overflow-x: hidden;
@@ -13,6 +14,7 @@ body {
   }
 }
 
+/* NAVBAR */
 .hero__navbar {
   background-color: #afe6fa;
 }
@@ -21,6 +23,7 @@ body {
   color: #f278a0;
 }
 
+/* HERO */
 .hero--background {
   background-color: #0f172a;
   color: #f8fafc;
@@ -29,9 +32,11 @@ body {
   background-color: #f278a0;
   color: #fff;
   border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
 }
 .hero__cta:hover {
-  background-color: #d9668c;
+  background-color: rgb(237.5202702703, 73.4797297297, 127.2635135135);
 }
 .hero__image {
   background-size: cover;
@@ -69,6 +74,7 @@ body {
   text-shadow: 2px 2px 20px rgb(0, 0, 0);
 }
 
+/* HOME PAGE */
 .section--highlight .services__title {
   color: black;
 }
@@ -87,6 +93,7 @@ body {
   justify-content: center;
 }
 
+/* OUR SERVICES PAGE */
 .our-services__highlight {
   color: #f278a0;
 }
@@ -94,14 +101,23 @@ body {
   background-color: #afe6fa;
   color: #0f172a;
   border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
 }
 .our-services__btn:hover {
-  background-color: #6ab5ec;
-  color: #fff;
+  background-color: #7fd7f7;
 }
 .our-services__btn-reserve {
   background-color: transparent;
   color: #f278a0;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+.our-services__btn-reserve:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+.our-services__btn-reserve {
   border: 2px solid #f278a0;
 }
 .our-services__btn-reserve:hover {
@@ -161,6 +177,7 @@ body {
   color: #f278a0;
 }
 
+/* DOG EDUCATION PAGE */
 .featured-topics {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -188,6 +205,7 @@ body {
   object-fit: cover;
 }
 
+/* ABOUT US PAGE */
 .section--highlight {
   background-color: #fffae0;
   color: #0f172a;
@@ -196,6 +214,7 @@ body {
   color: #f278a0;
 }
 
+/* SERVICES PAGE */
 .service__header-bg {
   background-color: #f8fafc;
 }
@@ -216,11 +235,13 @@ body {
   }
 }
 
+/* RESERVE PAGE */
 .booking-form__card {
   background-color: #fffae0;
   color: #0f172a;
 }
 
+/* FOOTER */
 .footer {
   background-color: #0f172a;
   color: #f8fafc;
