@@ -92,3 +92,88 @@ El acceso al repositorio de GitHub debe ser proporcionado mediante la URL públi
 
 - **Media queries & Responsive:** Usa unidades relativas. El sitio web cuenta con una buena navegación en numerosos tamaños, en particular en mobile, laptop y desktop.
 - **Prolijidad del código:** Usa tabulaciones y nesting bien estructurado en el SCSS. Usa & para realizar selectores óptimos con pocas repeticiones.
+
+---
+
+## ✅ Checklist Entrega 3 (HTML + SASS + GitHub)
+
+## 🔹 1. Estructura del proyecto
+
+- [x] ~~Crear la carpeta del proyecto~~
+- [x] ~~Configurar la arquitectura de carpetas SCSS (`/scss`, `/scss/base`, `/scss/components`, `/scss/layout`, `/scss/utils`, `/scss/pages`)~~ _(puede requerir ajustar si no existía SCSS)_
+- [x] ~~Configurar `.gitignore` (ignorar `node_modules/` y otros innecesarios)~~
+- [x] Crear un archivo `main.scss` que importe los parciales
+
+---
+
+## 🔹 2. HTML (estructura final de la web)
+
+- [x] ~~Crear la estructura prolija, limpia y tabulada en los archivos HTML~~
+- [x] ~~Usar tags semánticos correctos: `<header>`, `<main>`, `<footer>`, `<section>`, `<article>`, `<nav>`~~
+- [x] ~~Insertar contenido estructurado: títulos (`<h1>`–`<h6>`), párrafos, listas, imágenes, tablas si corresponde~~
+- [x] ~~Usar atributos alt descriptivos en todas las imágenes~~
+- [x] ~~Verificar rutas relativas correctas (para imágenes, CSS y JS)~~
+- [x] ~~Agregar enlaces funcionales en menús y navegación~~
+- [x] ~~Incluir librerías necesarias (Bootstrap **o** grid+flexbox con CSS propio)~~
+- [x] ~~Aplicar clases utilitarias del framework elegido (si es Bootstrap)~~
+- [x] ~~Verificar consistencia entre páginas (estructura y jerarquía similares)~~
+
+---
+
+## 🔹 3. CSS / SCSS
+
+- [ ] Traducir todos los estilos CSS a **SCSS**
+- [ ] Usar **variables** para colores, tipografías, tamaños
+- [ ] Usar **nesting** correcto para selectores
+- [ ] Usar **mixins** (ej: para media queries o botones)
+- [ ] Usar **@extend** para reutilizar estilos
+- [ ] Usar **operadores** de SASS (`+`, `-`, `*`, `darken()`, `lighten()`, etc.)
+- [ ] Implementar **mapas o loops (@each)** si es posible (ej: clases dinámicas de color)
+- [ ] Implementar **transiciones y/o animaciones** en elementos relevantes
+- [ ] Verificar que se genere un único `style.css` compilado a partir del SCSS
+- [ ] Linkear el CSS generado en todos los HTML
+
+---
+
+## 🔹 4. Responsive Design
+
+- [ ] Usar unidades relativas (`em`, `rem`, `%`, `vh`, `vw`) en lugar de píxeles fijos donde sea pertinente
+- [ ] Usar **grid y flexbox** de forma adecuada según layout
+- [ ] Definir media queries SCSS con mixins (ej: breakpoints para mobile, tablet, desktop)
+- [ ] Comprobar que el diseño funciona en:
+  - [ ] Mobile (≤576px)
+  - [ ] Tablet (~768px)
+  - [ ] Laptop (~1024px)
+  - [ ] Desktop (≥1440px)
+- [ ] Asegurar que navegación sea intuitiva y los elementos se mantengan consistentes
+
+---
+
+## 🔹 5. Optimización
+
+- [x] ~~Optimizar imágenes (tamaño apropiado, formato web)~~
+- [x] ~~Comprimir archivos si es necesario~~
+- [ ] (Opcional) Usar un CDN para librerías externas (ej: Bootstrap, FontAwesome)
+- [x] ~~Verificar velocidad y rendimiento (ej: Lighthouse o PageSpeed)~~
+
+---
+
+## 🔹 6. Git & GitHub
+
+- [x] ~~Inicializar repositorio con `git init`~~
+- [x] ~~Crear commits frecuentes y descriptivos (ej: `"Estructura HTML terminada"`)~~
+- [x] ~~Subir todos los archivos necesarios al repo (HTML, CSS, imágenes, JS)~~
+- [x] ~~Verificar que `.gitignore` funcione correctamente~~
+- [x] ~~Publicar repo en GitHub con visibilidad pública~~
+- [x] ~~Comprobar que el repo tiene historial de commits mostrando versión del proyecto~~
+
+---
+
+## 🔹 7. Testing final
+
+- [x] ~~Probar el sitio en Chrome, Firefox y Edge/Safari~~
+- [x] ~~Probar en móvil real o emulador (herramientas dev de Chrome)~~
+- [x] ~~Verificar que no haya enlaces rotos~~
+- [x] ~~Revisar que todas las imágenes tengan `alt`~~
+- [x] ~~Confirmar que el layout sea consistente en todas las páginas~~
+- [x] ~~Revisar tabulación y orden del código antes de entregar~~
