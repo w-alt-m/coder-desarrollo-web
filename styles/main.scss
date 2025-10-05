@@ -6,6 +6,12 @@ $color-dark: #0f172a;
 $color-light: #f8fafc;
 $color-bg-alt: #fffae0;
 
+%btn-shared {
+  border-radius: 6px;
+  font-weight: 600;
+  padding: 0.5rem 1.25rem;
+}
+
 @mixin button-style($bg, $color: #fff) {
   background-color: $bg;
   color: $color;
@@ -15,6 +21,29 @@ $color-bg-alt: #fffae0;
 
   &:hover {
     background-color: darken($bg, 10%);
+  }
+}
+
+$brand-colors: (
+  "primary": $color-primary,
+  "secondary": $color-secondary,
+  "dark": $color-dark,
+);
+
+@each $name, $color in $brand-colors {
+  .text-#{$name} {
+    color: $color;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -55,6 +84,7 @@ body {
   }
 
   &__cta {
+    @extend %btn-shared;
     @include button-style($color-primary);
   }
 
@@ -130,10 +160,12 @@ body {
   }
 
   &__btn {
+    @extend %btn-shared;
     @include button-style($color-secondary, $color-dark);
   }
 
   &__btn-reserve {
+    @extend %btn-shared;
     @include button-style(transparent, $color-primary);
     border: 2px solid $color-primary;
 
@@ -226,6 +258,17 @@ body {
     width: 100%;
     height: 200px;
     object-fit: cover;
+  }
+}
+
+.featured-topics .card,
+.category-topics .card {
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  animation: fadeIn 0.6s ease-in;
+
+  &:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
   }
 }
 

@@ -1,4 +1,32 @@
 /* BASE */
+.our-services__btn-reserve, .our-services__btn, .hero__cta {
+  border-radius: 6px;
+  font-weight: 600;
+  padding: 0.5rem 1.25rem;
+}
+
+.text-primary {
+  color: #f278a0;
+}
+
+.text-secondary {
+  color: #afe6fa;
+}
+
+.text-dark {
+  color: #0f172a;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 html,
 body {
   overflow-x: hidden;
@@ -203,6 +231,17 @@ body {
   width: 100%;
   height: 200px;
   object-fit: cover;
+}
+
+.featured-topics .card,
+.category-topics .card {
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  animation: fadeIn 0.6s ease-in;
+}
+.featured-topics .card:hover,
+.category-topics .card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 /* ABOUT US PAGE */
