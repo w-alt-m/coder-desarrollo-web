@@ -139,7 +139,7 @@ El acceso al repositorio de GitHub debe ser proporcionado mediante la URL públi
 
 - [x] Usar unidades relativas (`em`, `rem`, `%`, `vh`, `vw`) en lugar de píxeles fijos donde sea pertinente
 - [x] Usar **grid y flexbox** de forma adecuada según layout
-- [ ] Definir media queries SCSS con mixins (ej: breakpoints para mobile, tablet, desktop)
+- [x] Definir media queries SCSS con mixins (ej: breakpoints para mobile, tablet, desktop)
 - [x] Comprobar que el diseño funciona en:
   - [x] Mobile (≤576px)
   - [x] Tablet (~768px)
