@@ -1,0 +1,19 @@
+@use "variables" as *;
+
+@mixin button-style($bg, $color: #fff) {
+  background-color: $bg;
+  color: $color;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: darken($bg, 10%);
+  }
+}
+
+@mixin respond-to($size) {
+  @media (max-width: map-get($breakpoints, $size)) {
+    @content;
+  }
+}

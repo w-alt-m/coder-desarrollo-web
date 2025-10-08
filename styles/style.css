@@ -32,7 +32,6 @@ body {
     transform: translateY(0);
   }
 }
-/* MQ BREAKPOINTS MIXIN */
 .navbar-brand img {
   max-width: 160px;
   height: auto;

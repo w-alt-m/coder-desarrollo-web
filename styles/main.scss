@@ -1,10 +1,7 @@
-/* BASE */
+@use "variables" as *;
+@use "mixins" as *;
 
-$color-primary: #f278a0;
-$color-secondary: #afe6fa;
-$color-dark: #0f172a;
-$color-light: #f8fafc;
-$color-bg-alt: #fffae0;
+/* BASE */
 
 html,
 body {
@@ -15,18 +12,6 @@ body {
   border-radius: 6px;
   font-weight: 600;
   padding: 0.5rem 1.25rem;
-}
-
-@mixin button-style($bg, $color: #fff) {
-  background-color: $bg;
-  color: $color;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
-
-  &:hover {
-    background-color: darken($bg, 10%);
-  }
 }
 
 $brand-colors: (
@@ -49,21 +34,6 @@ $brand-colors: (
   to {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-
-/* MQ BREAKPOINTS MIXIN */
-
-$breakpoints: (
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-);
-
-@mixin respond-to($size) {
-  @media (max-width: map-get($breakpoints, $size)) {
-    @content;
   }
 }
 
