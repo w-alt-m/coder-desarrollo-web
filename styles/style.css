@@ -32,11 +32,6 @@ body {
     transform: translateY(0);
   }
 }
-/* NAVBAR */
-.hero__navbar {
-  background-color: #afe6fa;
-}
-
 .navbar-brand img {
   max-width: 160px;
   height: auto;
@@ -45,6 +40,11 @@ body {
   .navbar-brand img {
     max-width: 120px;
   }
+}
+
+/* NAVBAR */
+.hero__navbar {
+  background-color: #afe6fa;
 }
 
 .nav-link--active {
@@ -71,7 +71,7 @@ body {
   background-position: center;
   min-height: 50vh;
   background-image: url("../assets/banner-2.webp");
-  width: 100%;
+  width: 100vw;
   max-width: 100%;
 }
 @media (max-width: 992px) {
@@ -260,14 +260,14 @@ body {
 .service__body {
   padding: 1rem 1.25rem 1.5rem;
 }
-@media (max-width: 992px) {
+@media (min-width: 992px) {
   .service__body {
     display: flex;
     gap: 2rem;
     align-items: center;
   }
 }
-@media (max-width: 992px) {
+@media (min-width: 992px) {
   .service .our-services__media,
   .service .service__content {
     flex: 1 1 0;
@@ -288,11 +288,18 @@ body {
 .footer__title {
   color: #f8fafc;
 }
-.footer__social, .footer__link {
+.footer__social {
   color: #f8fafc;
   text-decoration: none;
 }
-.footer__social:hover, .footer__link:hover {
+.footer__social:hover {
+  color: #f278a0;
+}
+.footer__link {
+  color: #f8fafc;
+  text-decoration: none;
+}
+.footer__link:hover {
   color: #f278a0;
 }
 .footer__divider {
