@@ -37,10 +37,10 @@ $brand-colors: (
   }
 }
 
-@mixin respond-up($size) {
-  @media (min-width: map-get($breakpoints, $size)) {
-    @content;
-  }
+/* NAVBAR */
+
+.hero__navbar {
+  background-color: $color-secondary;
 }
 
 .navbar-brand {
@@ -54,12 +54,6 @@ $brand-colors: (
       max-width: 120px;
     }
   }
-}
-
-/* NAVBAR */
-
-.hero__navbar {
-  background-color: $color-secondary;
 }
 
 .nav-link--active {
@@ -84,7 +78,7 @@ $brand-colors: (
     background-position: center;
     min-height: 50vh;
     background-image: url("../assets/banner-2.webp");
-    width: 100vw;
+    width: 100%;
     max-width: 100%;
 
     @include respond-to(lg) {
@@ -284,14 +278,14 @@ $brand-colors: (
   &__body {
     padding: 1rem 1.25rem 1.5rem;
 
-    @include respond-up(lg) {
+    @include respond-to(lg) {
       display: flex;
       gap: 2rem;
       align-items: center;
     }
   }
 
-  @include respond-up(lg) {
+  @include respond-to(lg) {
     .our-services__media,
     .service__content {
       flex: 1 1 0;
@@ -316,15 +310,7 @@ $brand-colors: (
     color: $color-light;
   }
 
-  &__social {
-    color: $color-light;
-    text-decoration: none;
-
-    &:hover {
-      color: $color-primary;
-    }
-  }
-
+  &__social,
   &__link {
     color: $color-light;
     text-decoration: none;
