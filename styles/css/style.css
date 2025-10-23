@@ -67,7 +67,7 @@ body {
   background-size: cover;
   background-position: center;
   min-height: 50vh;
-  background-image: url("../assets/banner-2.webp");
+  background-image: url("../../assets/banner-2.webp");
   width: 100vw;
   max-width: 100%;
 }
@@ -84,16 +84,16 @@ body {
   }
 }
 .hero--about .hero__image {
-  background-image: url("../assets/banner-4.webp");
+  background-image: url("../../assets/banner-4.webp");
 }
 .hero--services .hero__image {
-  background-image: url("../assets/banner-1.webp");
+  background-image: url("../../assets/banner-1.webp");
 }
 .hero--dogtraining .hero__image {
-  background-image: url("../assets/banner-2.webp");
+  background-image: url("../../assets/banner-2.webp");
 }
 .hero--reserve .hero__image {
-  background-image: url("../assets/banner-3.webp");
+  background-image: url("../../assets/banner-3.webp");
 }
 .hero__title, .hero__subtitle {
   text-shadow: 2px 2px 20px rgb(0, 0, 0);
