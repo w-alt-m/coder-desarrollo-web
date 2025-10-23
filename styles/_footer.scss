@@ -1,0 +1,36 @@
+@use "variables" as *;
+
+.footer {
+  background-color: $color-dark;
+  color: $color-light;
+
+  &__title {
+    color: $color-light;
+  }
+
+  &__social {
+    color: $color-light;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
+
+  &__link {
+    color: $color-light;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
+
+  &__divider {
+    border-color: #6c757d;
+  }
+
+  &__copy {
+    color: $color-light;
+  }
+}

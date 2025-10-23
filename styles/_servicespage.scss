@@ -1,0 +1,25 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+.service {
+  &__header-bg {
+    background-color: $color-light;
+  }
+
+  &__body {
+    padding: 1rem 1.25rem 1.5rem;
+
+    @include respond-up(lg) {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+    }
+  }
+
+  @include respond-up(lg) {
+    .our-services__media,
+    .service__content {
+      flex: 1 1 0;
+    }
+  }
+}

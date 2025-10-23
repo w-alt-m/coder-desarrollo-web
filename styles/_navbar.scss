@@ -1,0 +1,23 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+.navbar-brand {
+  img {
+    max-width: 160px;
+    height: auto;
+  }
+
+  @include respond-to(sm) {
+    img {
+      max-width: 120px;
+    }
+  }
+}
+
+.hero__navbar {
+  background-color: $color-secondary;
+}
+
+.nav-link--active {
+  color: $color-primary;
+}

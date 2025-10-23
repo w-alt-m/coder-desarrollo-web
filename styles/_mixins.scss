@@ -17,3 +17,9 @@
     @content;
   }
 }
+
+@mixin respond-up($size) {
+  @media (min-width: map-get($breakpoints, $size)) {
+    @content;
+  }
+}

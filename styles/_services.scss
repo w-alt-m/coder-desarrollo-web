@@ -1,0 +1,79 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+.our-services {
+  &__highlight {
+    color: $color-primary;
+  }
+
+  &__btn {
+    @extend %btn-shared !optional;
+    @include button-style($color-secondary, $color-dark);
+  }
+
+  &__btn-reserve {
+    @extend %btn-shared !optional;
+    @include button-style(transparent, $color-primary);
+    border: 2px solid $color-primary;
+
+    &:hover {
+      background-color: $color-primary;
+      color: #fff;
+    }
+  }
+
+  &__media {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+
+    .our-services__image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    @include respond-to(sm) {
+      aspect-ratio: 4 / 3;
+    }
+  }
+}
+
+.benefits-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin: 0;
+  padding: 0;
+
+  li {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.95rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+  .tag {
+    background: #e7f5ff;
+    color: #0d6efd;
+    border: 1px solid #b6d9ff;
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+    font-size: 0.85rem;
+  }
+}
+
+.service__icon-highlight {
+  font-size: 1rem;
+  color: $color-primary;
+}

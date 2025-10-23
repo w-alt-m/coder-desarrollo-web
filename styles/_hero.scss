@@ -1,0 +1,55 @@
+@use "variables" as *;
+@use "mixins" as *;
+@use "shared" as *;
+
+.hero {
+  &--background {
+    background-color: $color-dark;
+    color: $color-light;
+  }
+
+  &__cta {
+    @extend %btn-shared !optional;
+    @include button-style($color-primary);
+  }
+
+  &__image {
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+    background-image: url("../assets/banner-2.webp");
+    width: 100vw;
+    max-width: 100%;
+
+    @include respond-to(lg) {
+      min-height: 35vh;
+      background-position: center top;
+    }
+
+    @include respond-to(sm) {
+      min-height: 25vh;
+      background-position: top;
+    }
+  }
+
+  &--about &__image {
+    background-image: url("../assets/banner-4.webp");
+  }
+
+  &--services &__image {
+    background-image: url("../assets/banner-1.webp");
+  }
+
+  &--dogtraining &__image {
+    background-image: url("../assets/banner-2.webp");
+  }
+
+  &--reserve &__image {
+    background-image: url("../assets/banner-3.webp");
+  }
+
+  &__title,
+  &__subtitle {
+    text-shadow: 2px 2px 20px rgba(0, 0, 0, 1);
+  }
+}

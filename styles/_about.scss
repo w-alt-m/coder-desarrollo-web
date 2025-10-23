@@ -1,0 +1,10 @@
+@use "variables" as *;
+
+.section--highlight {
+  background-color: $color-bg-alt;
+  color: $color-dark;
+
+  h2 {
+    color: $color-primary;
+  }
+}

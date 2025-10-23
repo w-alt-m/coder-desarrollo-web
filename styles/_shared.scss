@@ -1,0 +1,19 @@
+@use "variables" as *;
+
+%btn-shared {
+  border-radius: 6px;
+  font-weight: 600;
+  padding: 0.5rem 1.25rem;
+}
+
+$brand-colors: (
+  "primary": $color-primary,
+  "secondary": $color-secondary,
+  "dark": $color-dark,
+);
+
+@each $name, $color in $brand-colors {
+  .text-#{$name} {
+    color: $color;
+  }
+}

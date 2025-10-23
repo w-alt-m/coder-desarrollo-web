@@ -1,10 +1,4 @@
-/* BASE */
-html,
-body {
-  overflow-x: hidden;
-}
-
-.our-services__btn-reserve, .our-services__btn, .hero__cta {
+.hero__cta {
   border-radius: 6px;
   font-weight: 600;
   padding: 0.5rem 1.25rem;
@@ -20,6 +14,11 @@ body {
 
 .text-dark {
   color: #0f172a;
+}
+
+html,
+body {
+  overflow-x: hidden;
 }
 
 @keyframes fadeIn {
@@ -42,7 +41,6 @@ body {
   }
 }
 
-/* NAVBAR */
 .hero__navbar {
   background-color: #afe6fa;
 }
@@ -51,7 +49,6 @@ body {
   color: #f278a0;
 }
 
-/* HERO */
 .hero--background {
   background-color: #0f172a;
   color: #f8fafc;
@@ -102,7 +99,6 @@ body {
   text-shadow: 2px 2px 20px rgb(0, 0, 0);
 }
 
-/* HOME PAGE */
 .section--highlight .services__title {
   color: black;
 }
@@ -121,7 +117,6 @@ body {
   justify-content: center;
 }
 
-/* OUR SERVICES PAGE */
 .our-services__highlight {
   color: #f278a0;
 }
@@ -205,7 +200,6 @@ body {
   color: #f278a0;
 }
 
-/* DOG EDUCATION PAGE */
 .featured-topics {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -244,7 +238,6 @@ body {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
-/* ABOUT US PAGE */
 .section--highlight {
   background-color: #fffae0;
   color: #0f172a;
@@ -253,7 +246,6 @@ body {
   color: #f278a0;
 }
 
-/* SERVICES PAGE */
 .service__header-bg {
   background-color: #f8fafc;
 }
@@ -274,13 +266,11 @@ body {
   }
 }
 
-/* RESERVE PAGE */
 .booking-form__card {
   background-color: #fffae0;
   color: #0f172a;
 }
 
-/* FOOTER */
 .footer {
   background-color: #0f172a;
   color: #f8fafc;
